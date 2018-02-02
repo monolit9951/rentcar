@@ -36,7 +36,7 @@ public class ReturnMoneyCommand extends Command {
 		if (o == null || o.getStatusId() != Status.REJECTED.ordinal()) {
 			throw new AppException(Message.WRONG_FORMAT_OF_DATE.info());
 		}
-		request.getSession().setAttribute("res", "Вам вернулась сумма в размере " + o.getPrice()+"$");
+		request.getSession().setAttribute("res", "Р’Р°Рј РІРµСЂРЅСѓР»Р°СЃСЊ СЃСѓРјРјР° РІ СЂР°Р·РјРµСЂРµ " + o.getPrice()+"$");
 		manager.deleteOrderById(o.getId());
 
 		return Path.PAGE_MY_ACCOUNTS;

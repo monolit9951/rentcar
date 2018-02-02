@@ -60,19 +60,19 @@ public class Util {
 		Status s = Status.values()[statusId];
 		switch (s) {
 		case WAITTOPAY: {
-			message = "Ожидается оплата";
+			message = "РћР¶РёРґР°РµС‚СЃСЏ РѕРїР»Р°С‚Р°";
 			break;
 		}
 		case PAYED: {
-			message = "Оплачено. Ожидается обработка";
+			message = "РћРїР»Р°С‡РµРЅРѕ. РћР¶РёРґР°РµС‚СЃСЏ РѕР±СЂР°Р±РѕС‚РєР°";
 			break;
 		}
 		case CONFIRMED: {
-			message = "Подтвержден";
+			message = "РџРѕРґС‚РІРµСЂР¶РґРµРЅ";
 			break;
 		}
 		case REJECTED: {
-			message = "Отклонен. " + mes;
+			message = "РћС‚РєР»РѕРЅРµРЅ. " + mes;
 			break;
 		}
 		}
