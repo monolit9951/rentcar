@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Регистрация нового пользователя</title>
+<link rel="stylesheet" href="../css/reg.css" type="text/css">
+<link rel="stylesheet" href="../css/style.css" type="text/css">
+</head>
+<body>
+	<div class="form">
+		<form method="post" action="../Controller">
+			<div class="form_action">
+				<label>Имя</label><input type="text" name="name" title="Ваше Имя"
+					required> <br> <label>Фамилия</label><input
+					type="text" name="surname" title="Ваша Фамилия" required> <br>
+				<label>Город</label><input type="text" name="city" title="Ваш город"
+					required> <br> <label>Номер телефона</label><input
+					type="number" name="number" title="Номер" required> <br>
+				<br> <label>Логин</label><input type="text" name="login"
+					title="логин" required> <br> <label>Пароль</label><input
+					type="password" required name="password" title="Ваша Фамилия">
+				<br> <label>Повторите</label><input type="password"
+					name="repeatpassword" title="Ваш город" required> <br>
+				<p>
+					<button>Зарегистрироваться</button>
+				</p>
+				<input type="hidden" name="command" value="reg">
+			</div>
+		</form>
+	</div>
+</body>
+</html>

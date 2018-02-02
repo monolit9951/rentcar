@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ include file="/view/directive/page.jspf"%>
+<%@ include file="/view/directive/taglib.jspf"%>
+<%--=========================================================================== 
+admin menu (bottom area). 
+===========================================================================--%>
+
+<nav class="dws-menu">
+	<ul>
+		<li><a
+			href="${pageContext.servletContext.contextPath}/Controller?command=new_car"><i
+				class="fa fa-car"></i> <fmt:message key="add_car" /></a></li>
+		<li><a
+			href="${pageContext.servletContext.contextPath}/Controller?command=admin_user_edit"><i
+				class="fa fa-bars"></i> <fmt:message key="main_menu_admin" /></a></li>
+	</ul>
+</nav>
+	<%@ include file="/view/directive/message.jspf"%>

@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ include file="/view/directive/page.jspf"%>
+<%@ include file="/view/directive/taglib.jspf"%>
+<%--=========================================================================== 
+order menu (bottom area). 
+===========================================================================--%>
+
+<nav class="dws-menu">
+	<ul>
+		<li><a
+			href="${pageContext.servletContext.contextPath}/Controller?command=my_accounts_not_payed"><i
+				class="fa fa-paypal"></i> <fmt:message key="accounts_not_payed" /></a></li>
+		<li><a
+			href="${pageContext.servletContext.contextPath}/Controller?command=my_accounts"><i
+				class="fa fa-history"></i> <fmt:message key="accounts_history" /></a></li>
+		<li><a href="${pageContext.servletContext.contextPath}/MainPage"><i
+				class="fa fa-bars"></i> <fmt:message key="main_menu" /></a></li>
+	</ul>
+</nav>
+<%@ include file="/view/directive/message.jspf"%>

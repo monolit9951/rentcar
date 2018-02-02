@@ -1,0 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ include file="/view/directive/page.jspf"%>
+<%@ include file="/view/directive/taglib.jspf"%>
+<c:if test="${not empty res}">
+	<center>
+		<h4>${res}</h4>
+	</center>
+	<%
+		session.removeAttribute("res");
+	%>
+</c:if>

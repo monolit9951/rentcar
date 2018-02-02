@@ -1,0 +1,43 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%--=========================================================================== 
+menu (bottom area). 
+===========================================================================--%>
+
+<nav class="dws-menu">
+	<ul>
+		<li><a
+			href="${pageContext.servletContext.contextPath}/Controller?command=car_list"><i
+				class="fa fa-shopping-cart"></i>Аренда авто</a>
+		<li><a
+			href="${pageContext.servletContext.contextPath}/Controller?command=order_menu"><i
+				class="fa fa-th-list"></i>Заказы</a></li>
+		<c:if
+			test="${sessionScope.role=='MANAGER'|| sessionScope.role=='ADMIN'}">
+			<li><a
+				href="${pageContext.servletContext.contextPath}/Controller?command=manager_menu"><i
+					class="fa fa-envelope-open"></i>Меню Менедж</a></li>
+		</c:if>
+		<c:if test="${sessionScope.role=='ADMIN'}">
+			<li><a
+				href="${pageContext.servletContext.contextPath}/Controller?command=admin_menu"><i
+					class="fa fa-envelope-open"></i>Меню Адм</a></li>
+		</c:if>
+	</ul>
+</nav>
+<h2 align="center">
+	<c:choose>
+		<c:when
+			test="${sessionScope.role=='MANAGER'|| sessionScope.role=='ADMIN' || sessionScope.role=='USER'}">
+			<a
+				href="${pageContext.servletContext.contextPath}/Controller?command=logout">
+				Выход</a>
+		</c:when>
+		<c:otherwise>
+			<a href="view/login.html"> Войти</a>
+			<br>
+			<a href="view/reg.html"> Регистрация</a>
+		</c:otherwise>
+	</c:choose>
+</h2>

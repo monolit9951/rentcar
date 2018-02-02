@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ include file="/view/directive/page.jspf"%>
+<%@ include file="/view/directive/taglib.jspf"%>
+<%--=========================================================================== 
+order menu (bottom area). 
+===========================================================================--%>
+
+<nav class="dws-menu">
+	<ul>
+		<li><a
+			href="${pageContext.servletContext.contextPath}/Controller?command=orders_wait"><i
+				class="fa fa-clock-o "></i> <fmt:message key="orders_menu_wait" /></a></li>
+		<li><a
+			href="${pageContext.servletContext.contextPath}/Controller?command=orders_confirmed"><i
+				class="fa fa-car"></i> <fmt:message key="orders_menu_confirmed" /></a></li>
+		<li><a
+			href="${pageContext.servletContext.contextPath}/Controller?command=orders_rejected"><i
+				class="fa fa fa-times"></i> <fmt:message key="orders_menu_rejected" />
+		</a></li>
+		<li><a href="${pageContext.servletContext.contextPath}/MainPage"><i
+				class="fa fa-bars"></i> <fmt:message key="main_menu" /></a></li>
+	</ul>
+</nav>
+<%@ include file="/view/directive/message.jspf"%>

@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+
+.form {
+	width: 260px;
+	height: 320px;
+	position: relative;
+}
+
+.form_action {
+	width: 300px;
+	height: 320px;
+	border: 1px solid #D9DEDF;
+	margin: 20px 0 10px 20px;
+	padding: 20px 150px 0 20px;
+	line-height: 30px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.form_action label {
+	float: left;
+}
+
+.form_action input {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.form_action select {
+	float: right;
+	width: 162px;
+}

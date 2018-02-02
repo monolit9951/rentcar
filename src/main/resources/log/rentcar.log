@@ -1,0 +1,974 @@
+2018-02-01 14:14 [DEBUG]            EncodingFilter:    35 - Filter initialization starts
+2018-02-01 14:14 [TRACE]            EncodingFilter:    37 - Encoding from web.xml --> UTF-8
+2018-02-01 14:14 [DEBUG]            EncodingFilter:    38 - Filter initialization finished
+2018-02-01 14:16 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:16 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:16 [TRACE]                Controller:    37 - Request parameter: command --> reg
+2018-02-01 14:16 [TRACE]                Controller:    39 - Obtained command --> RegisterCommand
+2018-02-01 14:16 [DEBUG]           RegisterCommand:    34 - Register Command
+2018-02-01 14:16 [TRACE]           RegisterCommand:    42 - request login : monolit9951
+2018-02-01 14:16 [TRACE]                 DBManager:   798 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'monolit9951' for key 'login'
+2018-02-01 14:16 [TRACE]                 DBManager:   799 - com.mysql.jdbc.JDBC42PreparedStatement@123aa3ff: INSERT INTO users(login,password,name,surname,city,number,roleId) VALUES('monolit9951','123456','Иван','Иванов','Харьков','380990091049',2)
+2018-02-01 14:16 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:16 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:16 [TRACE]                Controller:    37 - Request parameter: command --> reg
+2018-02-01 14:16 [TRACE]                Controller:    39 - Obtained command --> RegisterCommand
+2018-02-01 14:16 [DEBUG]           RegisterCommand:    34 - Register Command
+2018-02-01 14:16 [TRACE]           RegisterCommand:    42 - request login : monolit322
+2018-02-01 14:16 [TRACE]           RegisterCommand:    53 - I added user ---> User [id=0, roleId=2, login=monolit322, password=123456, name=Иван, surname=Иванов, city=Харьков, number=380990091049, role=USER]
+2018-02-01 14:16 [TRACE]                Controller:    52 - Forward address --> /view/login.html
+2018-02-01 14:16 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /view/login.html
+2018-02-01 14:16 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:16 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:16 [TRACE]                Controller:    37 - Request parameter: command --> login
+2018-02-01 14:16 [TRACE]                Controller:    39 - Obtained command --> LoginCommand
+2018-02-01 14:16 [TRACE]              LoginCommand:    30 - Request parameter: loging --> monolit322
+2018-02-01 14:16 [TRACE]              LoginCommand:    43 - Set the session attribute: user --> User [id=28, roleId=2, login=monolit322, password=123456, name=Иван, surname=Иванов, city=Харьков, number=380990091049, role=USER]
+2018-02-01 14:16 [TRACE]              LoginCommand:    45 - Set the session attribute: role --> USER
+2018-02-01 14:16 [ INFO]              LoginCommand:    46 - User User [id=28, roleId=2, login=monolit322, password=123456, name=Иван, surname=Иванов, city=Харьков, number=380990091049, role=USER] logged as user
+2018-02-01 14:16 [DEBUG]              LoginCommand:    47 - Command finished
+2018-02-01 14:16 [TRACE]                Controller:    52 - Forward address --> /MainPage
+2018-02-01 14:16 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /MainPage
+2018-02-01 14:16 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:16 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:16 [TRACE]                Controller:    62 - Request parameter: command --> car_list
+2018-02-01 14:16 [TRACE]                Controller:    64 - Obtained command --> CarListCommand
+2018-02-01 14:16 [TRACE]                Controller:    74 - Forward address --> /view/car_list.jsp
+2018-02-01 14:16 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-02-01 14:17 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:17 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:17 [TRACE]                Controller:    62 - Request parameter: command --> car_list
+2018-02-01 14:17 [TRACE]                Controller:    64 - Obtained command --> CarListCommand
+2018-02-01 14:17 [TRACE]                Controller:    74 - Forward address --> /view/car_list.jsp
+2018-02-01 14:17 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-02-01 14:18 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:18 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:18 [TRACE]                Controller:    62 - Request parameter: command --> choose_car
+2018-02-01 14:18 [TRACE]                Controller:    64 - Obtained command --> ChooseCarCommand
+2018-02-01 14:18 [TRACE]                Controller:    74 - Forward address --> view/choose_car.jsp
+2018-02-01 14:18 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-02-01 14:18 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:18 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:18 [TRACE]                Controller:    62 - Request parameter: command --> make_order
+2018-02-01 14:18 [TRACE]                Controller:    64 - Obtained command --> MakeOrderCommand
+2018-02-01 14:18 [TRACE]          MakeOrderCommand:    37 - get a car -->Car [id=2, mark=Toyota, model=Land Cruiser Prado, autoClass=J, imageURL=toyota_landcruiser.jpg, body=Хэтчбэк, engine=4.2, transmission=автомат, fuel=бензин, price=180]
+2018-02-01 14:18 [TRACE]                Controller:    74 - Forward address --> view/orders/make_order.jsp
+2018-02-01 14:18 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> view/orders/make_order.jsp
+2018-02-01 14:19 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:19 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:19 [TRACE]                Controller:    37 - Request parameter: command --> paste_order
+2018-02-01 14:19 [TRACE]                Controller:    39 - Obtained command --> FormingOrder
+2018-02-01 14:19 [TRACE]              FormingOrder:    53 - Request parameter: carId --> 2
+2018-02-01 14:19 [TRACE]              FormingOrder:    54 - Request parameter: carPrice--> 180
+2018-02-01 14:19 [TRACE]              FormingOrder:    62 - Request parameter: dateStart --> 2018-02-02
+2018-02-01 14:19 [TRACE]              FormingOrder:    64 - Request parameter: dateEnd --> 2018-02-04
+2018-02-01 14:19 [TRACE]              FormingOrder:    66 - Request parameter: dateBirth --> 1997-01-01
+2018-02-01 14:19 [TRACE]              FormingOrder:    89 - Here is order : Order [userId=28, id=0, days=3, price=600, statusId=0, withDriver=true, dateStart=2018-02-02, dateEnd=2018-02-04, reason=null, name=Иван, surname=Иванов, patronymic=Иванович, city=Харьков, sex=male, borningDate=1997-01-01]
+2018-02-01 14:19 [TRACE]              FormingOrder:    90 - Here is car :Car [id=2, mark=Toyota, model=Land Cruiser Prado, autoClass=J, imageURL=toyota_landcruiser.jpg, body=Хэтчбэк, engine=4.2, transmission=автомат, fuel=бензин, price=180]
+2018-02-01 14:19 [TRACE]                Controller:    52 - Forward address --> /view/orders/forming_account.jsp
+2018-02-01 14:19 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /view/orders/forming_account.jsp
+2018-02-01 14:19 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:19 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:19 [TRACE]                Controller:    37 - Request parameter: command --> paste_account
+2018-02-01 14:19 [TRACE]                Controller:    39 - Obtained command --> PasteAccountCommand
+2018-02-01 14:19 [TRACE]                 DBManager:   851 - com.mysql.jdbc.JDBC42PreparedStatement@4d1a5fb: INSERT INTO orders(userId,statusId,days,price,withDriver,dateStart,dateEnd,name,surname,patronymic,sex,city,borningDate) VALUES(28,1,3,600,1,'2018-02-02','2018-02-04','Иван','Иванов','Иванович','male','Харьков','1997-01-01')
+2018-02-01 14:19 [TRACE]                 DBManager:   857 - i set ord id to 21
+2018-02-01 14:19 [TRACE]                 DBManager:   883 - com.mysql.jdbc.JDBC42PreparedStatement@15594108: INSERT INTO accounts(userId,statusId,price,dateCreate,message) VALUES(28,1,600,'2018-02-01','Покупка')
+2018-02-01 14:19 [TRACE]       PasteAccountCommand:    45 - account-->Account [id=0, userId=28, price=600, statusId=1, dateCreate=2018-02-01, message=Покупка]
+2018-02-01 14:19 [TRACE]       PasteAccountCommand:    46 - order-->Order [userId=28, id=21, days=3, price=600, statusId=1, withDriver=true, dateStart=2018-02-02, dateEnd=2018-02-04, reason=null, name=Иван, surname=Иванов, patronymic=Иванович, city=Харьков, sex=male, borningDate=1997-01-01]
+2018-02-01 14:19 [TRACE]                Controller:    52 - Forward address --> /MainPage
+2018-02-01 14:19 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /MainPage
+2018-02-01 14:19 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:19 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:19 [TRACE]                Controller:    62 - Request parameter: command --> orders_wait
+2018-02-01 14:19 [TRACE]                Controller:    64 - Obtained command --> OrdersWaitCommand
+2018-02-01 14:19 [TRACE]         OrdersWaitCommand:    32 - Here is orders -->[Order [userId=28, id=21, days=3, price=600, statusId=1, withDriver=true, dateStart=2018-02-02, dateEnd=2018-02-04, reason=null, name=Иван, surname=Иванов, patronymic=Иванович, city=Харьков, sex=male, borningDate=1997-01-01]]
+2018-02-01 14:19 [TRACE]                Controller:    74 - Forward address --> /view/orders/orders_wait.jsp
+2018-02-01 14:19 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/orders_wait.jsp
+2018-02-01 14:19 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:19 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:19 [TRACE]                Controller:    62 - Request parameter: command --> orders_wait
+2018-02-01 14:19 [TRACE]                Controller:    64 - Obtained command --> OrdersWaitCommand
+2018-02-01 14:19 [TRACE]         OrdersWaitCommand:    32 - Here is orders -->[Order [userId=28, id=21, days=3, price=600, statusId=1, withDriver=true, dateStart=2018-02-02, dateEnd=2018-02-04, reason=null, name=Иван, surname=Иванов, patronymic=Иванович, city=Харьков, sex=male, borningDate=1997-01-01]]
+2018-02-01 14:19 [TRACE]                Controller:    74 - Forward address --> /view/orders/orders_wait.jsp
+2018-02-01 14:19 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/orders_wait.jsp
+2018-02-01 14:19 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:19 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:19 [TRACE]                Controller:    62 - Request parameter: command --> get_order
+2018-02-01 14:19 [TRACE]                Controller:    64 - Obtained command --> OrderGetCommand
+2018-02-01 14:19 [TRACE]                 DBManager:   459 - com.mysql.jdbc.JDBC42PreparedStatement@34ca4869: SELECT * from cars INNER JOIN orders_cars on cars.id=orders_cars.carId where orders_cars.orderId=21
+2018-02-01 14:19 [TRACE]           OrderGetCommand:    42 - found a car -->Car [id=2, mark=Toyota, model=Land Cruiser Prado, autoClass=J, imageURL=toyota_landcruiser.jpg, body=Хэтчбэк, engine=4.2, transmission=автомат, fuel=бензин, price=180]
+2018-02-01 14:19 [TRACE]                Controller:    74 - Forward address --> /view/orders/order.jsp
+2018-02-01 14:19 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/order.jsp
+2018-02-01 14:19 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:19 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:19 [TRACE]                Controller:    62 - Request parameter: command --> orders_wait
+2018-02-01 14:19 [TRACE]                Controller:    64 - Obtained command --> OrdersWaitCommand
+2018-02-01 14:19 [TRACE]         OrdersWaitCommand:    32 - Here is orders -->[Order [userId=28, id=21, days=3, price=600, statusId=1, withDriver=true, dateStart=2018-02-02, dateEnd=2018-02-04, reason=null, name=Иван, surname=Иванов, patronymic=Иванович, city=Харьков, sex=male, borningDate=1997-01-01]]
+2018-02-01 14:19 [TRACE]                Controller:    74 - Forward address --> /view/orders/orders_wait.jsp
+2018-02-01 14:19 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/orders_wait.jsp
+2018-02-01 14:19 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:19 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:19 [TRACE]                Controller:    62 - Request parameter: command --> logout
+2018-02-01 14:19 [TRACE]                Controller:    64 - Obtained command --> LogoutCommand
+2018-02-01 14:19 [TRACE]                Controller:    74 - Forward address --> /MainPage
+2018-02-01 14:19 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /MainPage
+2018-02-01 14:19 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:19 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:19 [TRACE]                Controller:    37 - Request parameter: command --> login
+2018-02-01 14:19 [TRACE]                Controller:    39 - Obtained command --> LoginCommand
+2018-02-01 14:19 [TRACE]              LoginCommand:    30 - Request parameter: loging --> 1
+2018-02-01 14:19 [TRACE]              LoginCommand:    43 - Set the session attribute: user --> User [id=2, roleId=0, login=1, password=1, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN]
+2018-02-01 14:19 [TRACE]              LoginCommand:    45 - Set the session attribute: role --> ADMIN
+2018-02-01 14:19 [ INFO]              LoginCommand:    46 - User User [id=2, roleId=0, login=1, password=1, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN] logged as admin
+2018-02-01 14:19 [DEBUG]              LoginCommand:    47 - Command finished
+2018-02-01 14:19 [TRACE]                Controller:    52 - Forward address --> /MainPage
+2018-02-01 14:19 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /MainPage
+2018-02-01 14:19 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:19 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:19 [TRACE]                Controller:    62 - Request parameter: command --> orders_edit
+2018-02-01 14:19 [TRACE]                Controller:    64 - Obtained command --> ManagerOrdersEditCommand
+2018-02-01 14:19 [TRACE]                Controller:    74 - Forward address --> /view/manager/orders_edit.jsp
+2018-02-01 14:19 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-02-01 14:19 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:19 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:19 [TRACE]                Controller:    62 - Request parameter: command --> order_edit
+2018-02-01 14:19 [TRACE]                Controller:    64 - Obtained command --> ManagerOrderEditCommand
+2018-02-01 14:19 [TRACE]                 DBManager:   459 - com.mysql.jdbc.JDBC42PreparedStatement@3be14be5: SELECT * from cars INNER JOIN orders_cars on cars.id=orders_cars.carId where orders_cars.orderId=21
+2018-02-01 14:19 [TRACE]                Controller:    74 - Forward address --> /view/manager/order_edit.jsp
+2018-02-01 14:19 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-02-01 14:20 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:20 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:20 [TRACE]                Controller:    37 - Request parameter: command --> confirm_order
+2018-02-01 14:20 [TRACE]                Controller:    39 - Obtained command --> ConfirmOrderCommand
+2018-02-01 14:20 [DEBUG]       ConfirmOrderCommand:    29 - Confirm Order
+2018-02-01 14:20 [TRACE]                Controller:    52 - Forward address --> /Controller?command=orders_edit
+2018-02-01 14:20 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /Controller?command=orders_edit
+2018-02-01 14:20 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:20 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:20 [TRACE]                Controller:    62 - Request parameter: command --> orders_edit
+2018-02-01 14:20 [TRACE]                Controller:    64 - Obtained command --> ManagerOrdersEditCommand
+2018-02-01 14:20 [TRACE]                Controller:    74 - Forward address --> /view/manager/orders_edit.jsp
+2018-02-01 14:20 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-02-01 14:20 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:20 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:20 [TRACE]                Controller:    62 - Request parameter: command --> logout
+2018-02-01 14:20 [TRACE]                Controller:    64 - Obtained command --> LogoutCommand
+2018-02-01 14:20 [TRACE]                Controller:    74 - Forward address --> /MainPage
+2018-02-01 14:20 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /MainPage
+2018-02-01 14:20 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:20 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:20 [TRACE]                Controller:    37 - Request parameter: command --> login
+2018-02-01 14:20 [TRACE]                Controller:    39 - Obtained command --> LoginCommand
+2018-02-01 14:20 [TRACE]              LoginCommand:    30 - Request parameter: loging --> monolit322
+2018-02-01 14:20 [TRACE]              LoginCommand:    43 - Set the session attribute: user --> User [id=28, roleId=2, login=monolit322, password=123456, name=Иван, surname=Иванов, city=Харьков, number=380990091049, role=USER]
+2018-02-01 14:20 [TRACE]              LoginCommand:    45 - Set the session attribute: role --> USER
+2018-02-01 14:20 [ INFO]              LoginCommand:    46 - User User [id=28, roleId=2, login=monolit322, password=123456, name=Иван, surname=Иванов, city=Харьков, number=380990091049, role=USER] logged as user
+2018-02-01 14:20 [DEBUG]              LoginCommand:    47 - Command finished
+2018-02-01 14:20 [TRACE]                Controller:    52 - Forward address --> /MainPage
+2018-02-01 14:20 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /MainPage
+2018-02-01 14:20 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:20 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:20 [TRACE]                Controller:    62 - Request parameter: command --> orders_wait
+2018-02-01 14:20 [TRACE]                Controller:    64 - Obtained command --> OrdersWaitCommand
+2018-02-01 14:20 [TRACE]         OrdersWaitCommand:    32 - Here is orders -->[]
+2018-02-01 14:20 [TRACE]                Controller:    74 - Forward address --> /view/orders/orders_wait.jsp
+2018-02-01 14:20 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/orders_wait.jsp
+2018-02-01 14:20 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:20 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:20 [TRACE]                Controller:    62 - Request parameter: command --> orders_wait
+2018-02-01 14:20 [TRACE]                Controller:    64 - Obtained command --> OrdersWaitCommand
+2018-02-01 14:20 [TRACE]         OrdersWaitCommand:    32 - Here is orders -->[]
+2018-02-01 14:20 [TRACE]                Controller:    74 - Forward address --> /view/orders/orders_wait.jsp
+2018-02-01 14:20 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/orders_wait.jsp
+2018-02-01 14:20 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:20 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:20 [TRACE]                Controller:    62 - Request parameter: command --> orders_confirmed
+2018-02-01 14:20 [TRACE]                Controller:    64 - Obtained command --> OrdersConfirmedCommand
+2018-02-01 14:20 [TRACE]                Controller:    74 - Forward address --> /view/orders/orders_confirmed.jsp
+2018-02-01 14:20 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/orders_confirmed.jsp
+2018-02-01 14:20 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:20 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:20 [TRACE]                Controller:    62 - Request parameter: command --> get_order
+2018-02-01 14:20 [TRACE]                Controller:    64 - Obtained command --> OrderGetCommand
+2018-02-01 14:20 [TRACE]                 DBManager:   459 - com.mysql.jdbc.JDBC42PreparedStatement@59c6bb8: SELECT * from cars INNER JOIN orders_cars on cars.id=orders_cars.carId where orders_cars.orderId=21
+2018-02-01 14:20 [TRACE]           OrderGetCommand:    42 - found a car -->Car [id=2, mark=Toyota, model=Land Cruiser Prado, autoClass=J, imageURL=toyota_landcruiser.jpg, body=Хэтчбэк, engine=4.2, transmission=автомат, fuel=бензин, price=180]
+2018-02-01 14:20 [TRACE]                Controller:    74 - Forward address --> /view/orders/order.jsp
+2018-02-01 14:20 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/order.jsp
+2018-02-01 14:20 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:20 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:20 [TRACE]                Controller:    62 - Request parameter: command --> orders_wait
+2018-02-01 14:20 [TRACE]                Controller:    64 - Obtained command --> OrdersWaitCommand
+2018-02-01 14:20 [TRACE]         OrdersWaitCommand:    32 - Here is orders -->[]
+2018-02-01 14:20 [TRACE]                Controller:    74 - Forward address --> /view/orders/orders_wait.jsp
+2018-02-01 14:20 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/orders_wait.jsp
+2018-02-01 14:20 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:20 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:20 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:20 [TRACE]                Controller:    62 - Request parameter: command --> car_list
+2018-02-01 14:20 [TRACE]                Controller:    64 - Obtained command --> CarListCommand
+2018-02-01 14:20 [TRACE]                Controller:    74 - Forward address --> /view/car_list.jsp
+2018-02-01 14:20 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-02-01 14:20 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:20 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:20 [TRACE]                Controller:    37 - Request parameter: command --> login
+2018-02-01 14:20 [TRACE]                Controller:    39 - Obtained command --> LoginCommand
+2018-02-01 14:20 [TRACE]              LoginCommand:    30 - Request parameter: loging --> 1
+2018-02-01 14:20 [TRACE]              LoginCommand:    43 - Set the session attribute: user --> User [id=2, roleId=0, login=1, password=1, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN]
+2018-02-01 14:20 [TRACE]              LoginCommand:    45 - Set the session attribute: role --> ADMIN
+2018-02-01 14:20 [ INFO]              LoginCommand:    46 - User User [id=2, roleId=0, login=1, password=1, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN] logged as admin
+2018-02-01 14:20 [DEBUG]              LoginCommand:    47 - Command finished
+2018-02-01 14:20 [TRACE]                Controller:    52 - Forward address --> /MainPage
+2018-02-01 14:20 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /MainPage
+2018-02-01 14:21 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:21 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:21 [TRACE]                Controller:    62 - Request parameter: command --> orders_edit
+2018-02-01 14:21 [TRACE]                Controller:    64 - Obtained command --> ManagerOrdersEditCommand
+2018-02-01 14:21 [TRACE]                Controller:    74 - Forward address --> /view/manager/orders_edit.jsp
+2018-02-01 14:21 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-02-01 14:21 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:21 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:21 [TRACE]                Controller:    62 - Request parameter: command --> arrived_cars
+2018-02-01 14:21 [TRACE]                Controller:    64 - Obtained command --> ArrivedCarsCommand
+2018-02-01 14:21 [TRACE]                Controller:    74 - Forward address --> /view/manager/arrived_cars.jsp
+2018-02-01 14:21 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/manager/arrived_cars.jsp
+2018-02-01 14:21 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:21 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:21 [TRACE]                Controller:    62 - Request parameter: command --> arrived_car
+2018-02-01 14:21 [TRACE]                Controller:    64 - Obtained command --> ArrivedCarCommand
+2018-02-01 14:21 [TRACE]                 DBManager:   459 - com.mysql.jdbc.JDBC42PreparedStatement@3e2a05f9: SELECT * from cars INNER JOIN orders_cars on cars.id=orders_cars.carId where orders_cars.orderId=21
+2018-02-01 14:21 [TRACE]                Controller:    74 - Forward address --> /view/manager/arrived_car.jsp
+2018-02-01 14:21 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/manager/arrived_car.jsp
+2018-02-01 14:21 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:21 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:21 [TRACE]                Controller:    37 - Request parameter: command --> confirm_return
+2018-02-01 14:21 [TRACE]                Controller:    39 - Obtained command --> ConfirmReturnCommand
+2018-02-01 14:21 [TRACE]                 DBManager:   883 - com.mysql.jdbc.JDBC42PreparedStatement@7d4b256b: INSERT INTO accounts(userId,statusId,price,dateCreate,message) VALUES(28,0,120000000,'2018-02-01','Счет за ремонт')
+2018-02-01 14:21 [TRACE]                Controller:    52 - Forward address --> /Controller?command=arrived_cars
+2018-02-01 14:21 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /Controller?command=arrived_cars
+2018-02-01 14:21 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:21 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:21 [TRACE]                Controller:    62 - Request parameter: command --> arrived_cars
+2018-02-01 14:21 [TRACE]                Controller:    64 - Obtained command --> ArrivedCarsCommand
+2018-02-01 14:21 [TRACE]                Controller:    74 - Forward address --> /view/manager/arrived_cars.jsp
+2018-02-01 14:21 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/manager/arrived_cars.jsp
+2018-02-01 14:21 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:21 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:21 [TRACE]                Controller:    62 - Request parameter: command --> car_list
+2018-02-01 14:21 [TRACE]                Controller:    64 - Obtained command --> CarListCommand
+2018-02-01 14:21 [TRACE]                Controller:    74 - Forward address --> /view/car_list.jsp
+2018-02-01 14:21 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-02-01 14:21 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:21 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:21 [TRACE]                Controller:    62 - Request parameter: command --> choose_car
+2018-02-01 14:21 [TRACE]                Controller:    64 - Obtained command --> ChooseCarCommand
+2018-02-01 14:21 [TRACE]                Controller:    74 - Forward address --> view/choose_car.jsp
+2018-02-01 14:21 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-02-01 14:21 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:21 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:21 [TRACE]                Controller:    62 - Request parameter: command --> make_order
+2018-02-01 14:21 [TRACE]                Controller:    64 - Obtained command --> MakeOrderCommand
+2018-02-01 14:21 [TRACE]          MakeOrderCommand:    37 - get a car -->Car [id=7, mark=Peugeot, model=Traveller, autoClass=V, imageURL=peugeot_traveller.jpg, body=Минивэн, engine=2.0, transmission=автомат, fuel=дизель, price=275]
+2018-02-01 14:21 [TRACE]                Controller:    74 - Forward address --> view/orders/make_order.jsp
+2018-02-01 14:21 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> view/orders/make_order.jsp
+2018-02-01 14:21 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:21 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:21 [TRACE]                Controller:    37 - Request parameter: command --> paste_order
+2018-02-01 14:21 [TRACE]                Controller:    39 - Obtained command --> FormingOrder
+2018-02-01 14:22 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:22 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:22 [TRACE]                Controller:    62 - Request parameter: command --> orders_wait
+2018-02-01 14:22 [TRACE]                Controller:    64 - Obtained command --> OrdersWaitCommand
+2018-02-01 14:22 [TRACE]         OrdersWaitCommand:    32 - Here is orders -->[]
+2018-02-01 14:22 [TRACE]                Controller:    74 - Forward address --> /view/orders/orders_wait.jsp
+2018-02-01 14:22 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/orders_wait.jsp
+2018-02-01 14:22 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:22 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:22 [TRACE]                Controller:    62 - Request parameter: command --> my_accounts_not_payed
+2018-02-01 14:22 [TRACE]                Controller:    64 - Obtained command --> MyAccountsNotPayedCommand
+2018-02-01 14:22 [TRACE]                Controller:    74 - Forward address --> /view/accounts/my_accounts_not_payed.jsp
+2018-02-01 14:22 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/accounts/my_accounts_not_payed.jsp
+2018-02-01 14:22 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:22 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:22 [TRACE]                Controller:    62 - Request parameter: command --> my_accounts
+2018-02-01 14:22 [TRACE]                Controller:    64 - Obtained command --> MyAccountsCommand
+2018-02-01 14:22 [TRACE]                Controller:    74 - Forward address --> /view/accounts/my_accounts.jsp
+2018-02-01 14:22 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/accounts/my_accounts.jsp
+2018-02-01 14:22 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:22 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:22 [TRACE]                Controller:    62 - Request parameter: command --> my_accounts_not_payed
+2018-02-01 14:22 [TRACE]                Controller:    64 - Obtained command --> MyAccountsNotPayedCommand
+2018-02-01 14:22 [TRACE]                Controller:    74 - Forward address --> /view/accounts/my_accounts_not_payed.jsp
+2018-02-01 14:22 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/accounts/my_accounts_not_payed.jsp
+2018-02-01 14:22 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:22 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:22 [TRACE]                Controller:    62 - Request parameter: command --> account_not_payed
+2018-02-01 14:22 [TRACE]                Controller:    64 - Obtained command --> AccountNotPayedCommand
+2018-02-01 14:22 [TRACE]                Controller:    74 - Forward address --> /view/accounts/account_not_payed.jsp
+2018-02-01 14:22 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/accounts/account_not_payed.jsp
+2018-02-01 14:22 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:22 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:22 [TRACE]                Controller:    62 - Request parameter: command --> account_not_payed
+2018-02-01 14:22 [TRACE]                Controller:    64 - Obtained command --> AccountNotPayedCommand
+2018-02-01 14:22 [TRACE]                Controller:    74 - Forward address --> /view/accounts/account_not_payed.jsp
+2018-02-01 14:22 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/accounts/account_not_payed.jsp
+2018-02-01 14:22 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:22 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:22 [TRACE]                Controller:    62 - Request parameter: command --> orders_edit
+2018-02-01 14:22 [TRACE]                Controller:    64 - Obtained command --> ManagerOrdersEditCommand
+2018-02-01 14:22 [TRACE]                Controller:    74 - Forward address --> /view/manager/orders_edit.jsp
+2018-02-01 14:22 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-02-01 14:22 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:22 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:22 [TRACE]                Controller:    62 - Request parameter: command --> account_not_payed
+2018-02-01 14:22 [TRACE]                Controller:    64 - Obtained command --> AccountNotPayedCommand
+2018-02-01 14:22 [TRACE]                Controller:    74 - Forward address --> /view/accounts/account_not_payed.jsp
+2018-02-01 14:22 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/accounts/account_not_payed.jsp
+2018-02-01 14:23 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:23 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:23 [TRACE]                Controller:    62 - Request parameter: command --> my_accounts
+2018-02-01 14:23 [TRACE]                Controller:    64 - Obtained command --> MyAccountsCommand
+2018-02-01 14:23 [TRACE]                Controller:    74 - Forward address --> /view/accounts/my_accounts.jsp
+2018-02-01 14:23 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/accounts/my_accounts.jsp
+2018-02-01 14:23 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:23 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:23 [TRACE]                Controller:    62 - Request parameter: command --> orders_wait
+2018-02-01 14:23 [TRACE]                Controller:    64 - Obtained command --> OrdersWaitCommand
+2018-02-01 14:23 [TRACE]         OrdersWaitCommand:    32 - Here is orders -->[]
+2018-02-01 14:23 [TRACE]                Controller:    74 - Forward address --> /view/orders/orders_wait.jsp
+2018-02-01 14:23 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/orders_wait.jsp
+2018-02-01 14:23 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:23 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:23 [TRACE]                Controller:    62 - Request parameter: command --> orders_wait
+2018-02-01 14:23 [TRACE]                Controller:    64 - Obtained command --> OrdersWaitCommand
+2018-02-01 14:23 [TRACE]         OrdersWaitCommand:    32 - Here is orders -->[]
+2018-02-01 14:23 [TRACE]                Controller:    74 - Forward address --> /view/orders/orders_wait.jsp
+2018-02-01 14:23 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/orders_wait.jsp
+2018-02-01 14:23 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:23 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:23 [TRACE]                Controller:    62 - Request parameter: command --> orders_confirmed
+2018-02-01 14:23 [TRACE]                Controller:    64 - Obtained command --> OrdersConfirmedCommand
+2018-02-01 14:23 [TRACE]                Controller:    74 - Forward address --> /view/orders/orders_confirmed.jsp
+2018-02-01 14:23 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/orders_confirmed.jsp
+2018-02-01 14:23 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:23 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:23 [TRACE]                Controller:    62 - Request parameter: command --> orders_rejected
+2018-02-01 14:23 [TRACE]                Controller:    64 - Obtained command --> OrdersRejectedCommand
+2018-02-01 14:23 [TRACE]                Controller:    74 - Forward address --> /view/orders/orders_rejected.jsp
+2018-02-01 14:23 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/orders_rejected.jsp
+2018-02-01 14:23 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:23 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:23 [TRACE]                Controller:    62 - Request parameter: command --> orders_wait
+2018-02-01 14:23 [TRACE]                Controller:    64 - Obtained command --> OrdersWaitCommand
+2018-02-01 14:23 [TRACE]         OrdersWaitCommand:    32 - Here is orders -->[]
+2018-02-01 14:23 [TRACE]                Controller:    74 - Forward address --> /view/orders/orders_wait.jsp
+2018-02-01 14:23 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/orders_wait.jsp
+2018-02-01 14:23 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:23 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:23 [TRACE]                Controller:    62 - Request parameter: command --> orders_confirmed
+2018-02-01 14:23 [TRACE]                Controller:    64 - Obtained command --> OrdersConfirmedCommand
+2018-02-01 14:23 [TRACE]                Controller:    74 - Forward address --> /view/orders/orders_confirmed.jsp
+2018-02-01 14:23 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/orders_confirmed.jsp
+2018-02-01 14:23 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:23 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:23 [TRACE]                Controller:    62 - Request parameter: command --> orders_wait
+2018-02-01 14:23 [TRACE]                Controller:    64 - Obtained command --> OrdersWaitCommand
+2018-02-01 14:23 [TRACE]         OrdersWaitCommand:    32 - Here is orders -->[]
+2018-02-01 14:23 [TRACE]                Controller:    74 - Forward address --> /view/orders/orders_wait.jsp
+2018-02-01 14:23 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/orders_wait.jsp
+2018-02-01 14:23 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:23 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:23 [TRACE]                Controller:    62 - Request parameter: command --> my_accounts_not_payed
+2018-02-01 14:23 [TRACE]                Controller:    64 - Obtained command --> MyAccountsNotPayedCommand
+2018-02-01 14:23 [TRACE]                Controller:    74 - Forward address --> /view/accounts/my_accounts_not_payed.jsp
+2018-02-01 14:23 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/accounts/my_accounts_not_payed.jsp
+2018-02-01 14:23 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:23 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:23 [TRACE]                Controller:    62 - Request parameter: command --> my_accounts_not_payed
+2018-02-01 14:23 [TRACE]                Controller:    64 - Obtained command --> MyAccountsNotPayedCommand
+2018-02-01 14:23 [TRACE]                Controller:    74 - Forward address --> /view/accounts/my_accounts_not_payed.jsp
+2018-02-01 14:23 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/accounts/my_accounts_not_payed.jsp
+2018-02-01 14:23 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:23 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:23 [TRACE]                Controller:    62 - Request parameter: command --> my_accounts
+2018-02-01 14:23 [TRACE]                Controller:    64 - Obtained command --> MyAccountsCommand
+2018-02-01 14:23 [TRACE]                Controller:    74 - Forward address --> /view/accounts/my_accounts.jsp
+2018-02-01 14:23 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/accounts/my_accounts.jsp
+2018-02-01 14:23 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:23 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:23 [TRACE]                Controller:    62 - Request parameter: command --> my_accounts_not_payed
+2018-02-01 14:23 [TRACE]                Controller:    64 - Obtained command --> MyAccountsNotPayedCommand
+2018-02-01 14:23 [TRACE]                Controller:    74 - Forward address --> /view/accounts/my_accounts_not_payed.jsp
+2018-02-01 14:23 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/accounts/my_accounts_not_payed.jsp
+2018-02-01 14:23 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:23 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:23 [TRACE]                Controller:    62 - Request parameter: command --> account_not_payed
+2018-02-01 14:23 [TRACE]                Controller:    64 - Obtained command --> AccountNotPayedCommand
+2018-02-01 14:23 [TRACE]                Controller:    74 - Forward address --> /view/accounts/account_not_payed.jsp
+2018-02-01 14:23 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/accounts/account_not_payed.jsp
+2018-02-01 14:23 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:23 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:23 [TRACE]                Controller:    37 - Request parameter: command --> pay_account
+2018-02-01 14:23 [TRACE]                Controller:    39 - Obtained command --> PayAccountCommand
+2018-02-01 14:23 [TRACE]                Controller:    52 - Forward address --> /MainPage
+2018-02-01 14:23 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /MainPage
+2018-02-01 14:23 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:23 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:23 [TRACE]                Controller:    62 - Request parameter: command --> orders_wait
+2018-02-01 14:23 [TRACE]                Controller:    64 - Obtained command --> OrdersWaitCommand
+2018-02-01 14:23 [TRACE]         OrdersWaitCommand:    32 - Here is orders -->[]
+2018-02-01 14:23 [TRACE]                Controller:    74 - Forward address --> /view/orders/orders_wait.jsp
+2018-02-01 14:23 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/orders_wait.jsp
+2018-02-01 14:23 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:23 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:23 [TRACE]                Controller:    62 - Request parameter: command --> my_accounts_not_payed
+2018-02-01 14:23 [TRACE]                Controller:    64 - Obtained command --> MyAccountsNotPayedCommand
+2018-02-01 14:23 [TRACE]                Controller:    74 - Forward address --> /view/accounts/my_accounts_not_payed.jsp
+2018-02-01 14:23 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/accounts/my_accounts_not_payed.jsp
+2018-02-01 14:23 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:23 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:23 [TRACE]                Controller:    62 - Request parameter: command --> my_accounts
+2018-02-01 14:23 [TRACE]                Controller:    64 - Obtained command --> MyAccountsCommand
+2018-02-01 14:23 [TRACE]                Controller:    74 - Forward address --> /view/accounts/my_accounts.jsp
+2018-02-01 14:23 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/accounts/my_accounts.jsp
+2018-02-01 14:23 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:23 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:23 [TRACE]                Controller:    62 - Request parameter: command --> car_list
+2018-02-01 14:23 [TRACE]                Controller:    64 - Obtained command --> CarListCommand
+2018-02-01 14:23 [TRACE]                Controller:    74 - Forward address --> /view/car_list.jsp
+2018-02-01 14:23 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-02-01 14:23 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:23 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:23 [TRACE]                Controller:    62 - Request parameter: command --> car_list
+2018-02-01 14:23 [TRACE]                Controller:    64 - Obtained command --> CarListCommand
+2018-02-01 14:23 [TRACE]                Controller:    74 - Forward address --> /view/car_list.jsp
+2018-02-01 14:23 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-02-01 14:24 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:24 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:24 [TRACE]                Controller:    62 - Request parameter: command --> car_list
+2018-02-01 14:24 [TRACE]                Controller:    64 - Obtained command --> CarListCommand
+2018-02-01 14:24 [TRACE]                Controller:    74 - Forward address --> /view/car_list.jsp
+2018-02-01 14:24 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-02-01 14:24 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:24 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:24 [TRACE]                Controller:    62 - Request parameter: command --> choose_car
+2018-02-01 14:24 [TRACE]                Controller:    64 - Obtained command --> ChooseCarCommand
+2018-02-01 14:24 [TRACE]                Controller:    74 - Forward address --> view/choose_car.jsp
+2018-02-01 14:24 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-02-01 14:24 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:24 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:24 [TRACE]                Controller:    62 - Request parameter: command --> make_order
+2018-02-01 14:24 [TRACE]                Controller:    64 - Obtained command --> MakeOrderCommand
+2018-02-01 14:24 [TRACE]          MakeOrderCommand:    37 - get a car -->Car [id=8, mark=Lexus, model=RX350, autoClass=J, imageURL=lexus_rx350.jpg, body=Хэтчбэк, engine=3.5, transmission=автомат, fuel=бензин, price=269]
+2018-02-01 14:24 [TRACE]                Controller:    74 - Forward address --> view/orders/make_order.jsp
+2018-02-01 14:24 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> view/orders/make_order.jsp
+2018-02-01 14:24 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:24 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:24 [TRACE]                Controller:    37 - Request parameter: command --> paste_order
+2018-02-01 14:24 [TRACE]                Controller:    39 - Obtained command --> FormingOrder
+2018-02-01 14:24 [TRACE]              FormingOrder:    53 - Request parameter: carId --> 8
+2018-02-01 14:24 [TRACE]              FormingOrder:    54 - Request parameter: carPrice--> 269
+2018-02-01 14:24 [TRACE]              FormingOrder:    62 - Request parameter: dateStart --> 2018-02-02
+2018-02-01 14:24 [TRACE]              FormingOrder:    64 - Request parameter: dateEnd --> 2018-02-02
+2018-02-01 14:24 [TRACE]              FormingOrder:    66 - Request parameter: dateBirth --> 1997-02-02
+2018-02-01 14:24 [TRACE]              FormingOrder:    89 - Here is order : Order [userId=28, id=0, days=1, price=289, statusId=0, withDriver=true, dateStart=2018-02-02, dateEnd=2018-02-02, reason=null, name=Иван, surname=Иванов, patronymic=sadsda, city=Харьков, sex=male, borningDate=1997-02-02]
+2018-02-01 14:24 [TRACE]              FormingOrder:    90 - Here is car :Car [id=8, mark=Lexus, model=RX350, autoClass=J, imageURL=lexus_rx350.jpg, body=Хэтчбэк, engine=3.5, transmission=автомат, fuel=бензин, price=269]
+2018-02-01 14:24 [TRACE]                Controller:    52 - Forward address --> /view/orders/forming_account.jsp
+2018-02-01 14:24 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /view/orders/forming_account.jsp
+2018-02-01 14:24 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:24 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:24 [TRACE]                Controller:    37 - Request parameter: command --> paste_account
+2018-02-01 14:24 [TRACE]                Controller:    39 - Obtained command --> PasteAccountCommand
+2018-02-01 14:24 [TRACE]                 DBManager:   851 - com.mysql.jdbc.JDBC42PreparedStatement@2b838359: INSERT INTO orders(userId,statusId,days,price,withDriver,dateStart,dateEnd,name,surname,patronymic,sex,city,borningDate) VALUES(28,1,1,289,1,'2018-02-02','2018-02-02','Иван','Иванов','sadsda','male','Харьков','1997-02-02')
+2018-02-01 14:24 [TRACE]                 DBManager:   857 - i set ord id to 22
+2018-02-01 14:24 [TRACE]                 DBManager:   883 - com.mysql.jdbc.JDBC42PreparedStatement@17d9b983: INSERT INTO accounts(userId,statusId,price,dateCreate,message) VALUES(28,1,289,'2018-02-01','Покупка')
+2018-02-01 14:24 [TRACE]       PasteAccountCommand:    45 - account-->Account [id=0, userId=28, price=289, statusId=1, dateCreate=2018-02-01, message=Покупка]
+2018-02-01 14:24 [TRACE]       PasteAccountCommand:    46 - order-->Order [userId=28, id=22, days=1, price=289, statusId=1, withDriver=true, dateStart=2018-02-02, dateEnd=2018-02-02, reason=null, name=Иван, surname=Иванов, patronymic=sadsda, city=Харьков, sex=male, borningDate=1997-02-02]
+2018-02-01 14:24 [TRACE]                Controller:    52 - Forward address --> /MainPage
+2018-02-01 14:24 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /MainPage
+2018-02-01 14:24 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:24 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:24 [TRACE]                Controller:    62 - Request parameter: command --> orders_wait
+2018-02-01 14:24 [TRACE]                Controller:    64 - Obtained command --> OrdersWaitCommand
+2018-02-01 14:24 [TRACE]         OrdersWaitCommand:    32 - Here is orders -->[Order [userId=28, id=22, days=1, price=289, statusId=1, withDriver=true, dateStart=2018-02-02, dateEnd=2018-02-02, reason=null, name=Иван, surname=Иванов, patronymic=sadsda, city=Харьков, sex=male, borningDate=1997-02-02]]
+2018-02-01 14:24 [TRACE]                Controller:    74 - Forward address --> /view/orders/orders_wait.jsp
+2018-02-01 14:24 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/orders_wait.jsp
+2018-02-01 14:24 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:24 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:24 [TRACE]                Controller:    62 - Request parameter: command --> get_order
+2018-02-01 14:24 [TRACE]                Controller:    64 - Obtained command --> OrderGetCommand
+2018-02-01 14:24 [TRACE]                 DBManager:   459 - com.mysql.jdbc.JDBC42PreparedStatement@56f3553c: SELECT * from cars INNER JOIN orders_cars on cars.id=orders_cars.carId where orders_cars.orderId=22
+2018-02-01 14:24 [TRACE]           OrderGetCommand:    42 - found a car -->Car [id=8, mark=Lexus, model=RX350, autoClass=J, imageURL=lexus_rx350.jpg, body=Хэтчбэк, engine=3.5, transmission=автомат, fuel=бензин, price=269]
+2018-02-01 14:24 [TRACE]                Controller:    74 - Forward address --> /view/orders/order.jsp
+2018-02-01 14:24 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/order.jsp
+2018-02-01 14:24 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:24 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:24 [TRACE]                Controller:    62 - Request parameter: command --> get_order
+2018-02-01 14:24 [TRACE]                Controller:    64 - Obtained command --> OrderGetCommand
+2018-02-01 14:24 [TRACE]                Controller:    74 - Forward address --> /view/error/error_page.jsp
+2018-02-01 14:24 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/error/error_page.jsp
+2018-02-01 14:24 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:24 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:24 [TRACE]                Controller:    62 - Request parameter: command --> orders_edit
+2018-02-01 14:24 [TRACE]                Controller:    64 - Obtained command --> ManagerOrdersEditCommand
+2018-02-01 14:24 [TRACE]                Controller:    74 - Forward address --> /view/manager/orders_edit.jsp
+2018-02-01 14:24 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-02-01 14:25 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:25 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:25 [TRACE]                Controller:    62 - Request parameter: command --> orders_edit
+2018-02-01 14:25 [TRACE]                Controller:    64 - Obtained command --> ManagerOrdersEditCommand
+2018-02-01 14:25 [TRACE]                Controller:    74 - Forward address --> /view/manager/orders_edit.jsp
+2018-02-01 14:25 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-02-01 14:25 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:25 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:25 [TRACE]                Controller:    62 - Request parameter: command --> order_edit
+2018-02-01 14:25 [TRACE]                Controller:    64 - Obtained command --> ManagerOrderEditCommand
+2018-02-01 14:25 [TRACE]                 DBManager:   459 - com.mysql.jdbc.JDBC42PreparedStatement@56e8abfc: SELECT * from cars INNER JOIN orders_cars on cars.id=orders_cars.carId where orders_cars.orderId=22
+2018-02-01 14:25 [TRACE]                Controller:    74 - Forward address --> /view/manager/order_edit.jsp
+2018-02-01 14:25 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-02-01 14:25 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:25 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:25 [TRACE]                Controller:    37 - Request parameter: command --> reject_order
+2018-02-01 14:25 [TRACE]                Controller:    39 - Obtained command --> RejectOrderCommand
+2018-02-01 14:25 [DEBUG]        RejectOrderCommand:    32 - Reject Order
+2018-02-01 14:25 [TRACE]        RejectOrderCommand:    37 - reason ---> Ты лох
+2018-02-01 14:25 [TRACE]                 DBManager:   712 - com.mysql.jdbc.JDBC42PreparedStatement@3143ed22: UPDATE orders SET reason='Ты лох' where id=22
+2018-02-01 14:25 [TRACE]                Controller:    52 - Forward address --> /Controller?command=orders_edit
+2018-02-01 14:25 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /Controller?command=orders_edit
+2018-02-01 14:25 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:25 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:25 [TRACE]                Controller:    62 - Request parameter: command --> orders_edit
+2018-02-01 14:25 [TRACE]                Controller:    64 - Obtained command --> ManagerOrdersEditCommand
+2018-02-01 14:25 [TRACE]                Controller:    74 - Forward address --> /view/manager/orders_edit.jsp
+2018-02-01 14:25 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-02-01 14:25 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:25 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:25 [TRACE]                Controller:    62 - Request parameter: command --> orders_wait
+2018-02-01 14:25 [TRACE]                Controller:    64 - Obtained command --> OrdersWaitCommand
+2018-02-01 14:25 [TRACE]         OrdersWaitCommand:    32 - Here is orders -->[]
+2018-02-01 14:25 [TRACE]                Controller:    74 - Forward address --> /view/orders/orders_wait.jsp
+2018-02-01 14:25 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/orders_wait.jsp
+2018-02-01 14:25 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:25 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:25 [TRACE]                Controller:    62 - Request parameter: command --> orders_confirmed
+2018-02-01 14:25 [TRACE]                Controller:    64 - Obtained command --> OrdersConfirmedCommand
+2018-02-01 14:25 [TRACE]                Controller:    74 - Forward address --> /view/orders/orders_confirmed.jsp
+2018-02-01 14:25 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/orders_confirmed.jsp
+2018-02-01 14:25 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:25 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:25 [TRACE]                Controller:    62 - Request parameter: command --> orders_rejected
+2018-02-01 14:25 [TRACE]                Controller:    64 - Obtained command --> OrdersRejectedCommand
+2018-02-01 14:25 [TRACE]                Controller:    74 - Forward address --> /view/orders/orders_rejected.jsp
+2018-02-01 14:25 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/orders_rejected.jsp
+2018-02-01 14:25 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:25 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:25 [TRACE]                Controller:    62 - Request parameter: command --> get_order
+2018-02-01 14:25 [TRACE]                Controller:    64 - Obtained command --> OrderGetCommand
+2018-02-01 14:25 [TRACE]                 DBManager:   459 - com.mysql.jdbc.JDBC42PreparedStatement@5a224022: SELECT * from cars INNER JOIN orders_cars on cars.id=orders_cars.carId where orders_cars.orderId=22
+2018-02-01 14:25 [TRACE]           OrderGetCommand:    42 - found a car -->Car [id=8, mark=Lexus, model=RX350, autoClass=J, imageURL=lexus_rx350.jpg, body=Хэтчбэк, engine=3.5, transmission=автомат, fuel=бензин, price=269]
+2018-02-01 14:25 [TRACE]                Controller:    74 - Forward address --> /view/orders/order.jsp
+2018-02-01 14:25 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/order.jsp
+2018-02-01 14:25 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:25 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:25 [TRACE]                Controller:    62 - Request parameter: command --> get_order
+2018-02-01 14:25 [TRACE]                Controller:    64 - Obtained command --> OrderGetCommand
+2018-02-01 14:25 [TRACE]                Controller:    74 - Forward address --> /view/error/error_page.jsp
+2018-02-01 14:25 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/error/error_page.jsp
+2018-02-01 14:25 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:25 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:25 [TRACE]                Controller:    37 - Request parameter: command --> return_money
+2018-02-01 14:25 [TRACE]                Controller:    39 - Obtained command --> ReturnMoneyCommand
+2018-02-01 14:25 [TRACE]        ReturnMoneyCommand:    32 - order_id---->22
+2018-02-01 14:25 [TRACE]                Controller:    52 - Forward address --> /view/accounts/my_accounts.jsp
+2018-02-01 14:25 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /view/accounts/my_accounts.jsp
+2018-02-01 14:26 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:26 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:26 [TRACE]                Controller:    62 - Request parameter: command --> admin_user_edit
+2018-02-01 14:26 [TRACE]                Controller:    64 - Obtained command --> EditUserCommand
+2018-02-01 14:26 [TRACE]                Controller:    74 - Forward address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:26 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:26 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:26 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:26 [TRACE]                Controller:    62 - Request parameter: command --> auto_redactor
+2018-02-01 14:26 [TRACE]                Controller:    64 - Obtained command --> AutoRedactorCommand
+2018-02-01 14:26 [TRACE]                Controller:    74 - Forward address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:26 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:26 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:26 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:26 [TRACE]                Controller:    62 - Request parameter: command --> admin_user_get
+2018-02-01 14:26 [TRACE]                Controller:    64 - Obtained command --> GetUserCommand
+2018-02-01 14:26 [TRACE]                Controller:    74 - Forward address --> /view/error/error_page.jsp
+2018-02-01 14:26 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/error/error_page.jsp
+2018-02-01 14:26 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:26 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:26 [TRACE]                Controller:    62 - Request parameter: command --> admin_user_get
+2018-02-01 14:26 [TRACE]                Controller:    64 - Obtained command --> GetUserCommand
+2018-02-01 14:26 [TRACE]                Controller:    74 - Forward address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:26 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:26 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:26 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:26 [TRACE]                Controller:    62 - Request parameter: command --> admin_change_lock
+2018-02-01 14:26 [TRACE]                Controller:    64 - Obtained command --> ChangeLockCommand
+2018-02-01 14:26 [TRACE]         ChangeLockCommand:    37 - lock
+2018-02-01 14:26 [TRACE]                Controller:    74 - Forward address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:26 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:26 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:27 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:27 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:27 [TRACE]                Controller:    62 - Request parameter: command --> admin_change_lock
+2018-02-01 14:27 [TRACE]                Controller:    64 - Obtained command --> ChangeLockCommand
+2018-02-01 14:27 [TRACE]         ChangeLockCommand:    42 - unlock
+2018-02-01 14:27 [TRACE]                Controller:    74 - Forward address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:27 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:27 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:27 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:27 [TRACE]                Controller:    62 - Request parameter: command --> orders_wait
+2018-02-01 14:27 [TRACE]                Controller:    64 - Obtained command --> OrdersWaitCommand
+2018-02-01 14:27 [TRACE]         OrdersWaitCommand:    32 - Here is orders -->[]
+2018-02-01 14:27 [TRACE]                Controller:    74 - Forward address --> /view/orders/orders_wait.jsp
+2018-02-01 14:27 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/orders_wait.jsp
+2018-02-01 14:27 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:27 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:27 [TRACE]                Controller:    62 - Request parameter: command --> admin_change_role
+2018-02-01 14:27 [TRACE]                Controller:    64 - Obtained command --> ChangeRoleCommand
+2018-02-01 14:27 [TRACE]                Controller:    74 - Forward address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:27 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:27 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:27 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:27 [TRACE]                Controller:    62 - Request parameter: command --> admin_change_role
+2018-02-01 14:27 [TRACE]                Controller:    64 - Obtained command --> ChangeRoleCommand
+2018-02-01 14:27 [TRACE]                Controller:    74 - Forward address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:27 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:27 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:27 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:27 [TRACE]                Controller:    62 - Request parameter: command --> admin_delete_user
+2018-02-01 14:27 [TRACE]                Controller:    64 - Obtained command --> DeleteUserCommand
+2018-02-01 14:27 [TRACE]         DeleteUserCommand:    29 - Deleted user with id-->28
+2018-02-01 14:27 [TRACE]                Controller:    74 - Forward address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:27 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:27 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:27 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:27 [TRACE]                Controller:    62 - Request parameter: command --> auto_redactor
+2018-02-01 14:27 [TRACE]                Controller:    64 - Obtained command --> AutoRedactorCommand
+2018-02-01 14:27 [TRACE]                Controller:    74 - Forward address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:27 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:27 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:27 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:27 [TRACE]                Controller:    62 - Request parameter: command --> edit_car
+2018-02-01 14:27 [TRACE]                Controller:    64 - Obtained command --> EditCarCommand
+2018-02-01 14:27 [TRACE]                Controller:    74 - Forward address --> /view/admin/edit_car.jsp
+2018-02-01 14:27 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/admin/edit_car.jsp
+2018-02-01 14:28 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:28 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:28 [TRACE]                Controller:    37 - Request parameter: command --> change_car
+2018-02-01 14:28 [TRACE]                Controller:    39 - Obtained command --> ChangeCarCommand
+2018-02-01 14:28 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:28 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:28 [TRACE]                Controller:    37 - Request parameter: command --> change_car
+2018-02-01 14:28 [TRACE]                Controller:    39 - Obtained command --> ChangeCarCommand
+2018-02-01 14:28 [TRACE]                Controller:    52 - Forward address --> /Controller?command=auto_redactor
+2018-02-01 14:28 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /Controller?command=auto_redactor
+2018-02-01 14:28 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:28 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:28 [TRACE]                Controller:    62 - Request parameter: command --> auto_redactor
+2018-02-01 14:28 [TRACE]                Controller:    64 - Obtained command --> AutoRedactorCommand
+2018-02-01 14:28 [TRACE]                Controller:    74 - Forward address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:28 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:29 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:29 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:29 [TRACE]                Controller:    62 - Request parameter: command --> edit_car
+2018-02-01 14:29 [TRACE]                Controller:    64 - Obtained command --> EditCarCommand
+2018-02-01 14:29 [TRACE]                Controller:    74 - Forward address --> /view/admin/edit_car.jsp
+2018-02-01 14:29 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/admin/edit_car.jsp
+2018-02-01 14:29 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:29 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:29 [TRACE]                Controller:    37 - Request parameter: command --> change_car
+2018-02-01 14:29 [TRACE]                Controller:    39 - Obtained command --> ChangeCarCommand
+2018-02-01 14:29 [TRACE]                Controller:    52 - Forward address --> /Controller?command=auto_redactor
+2018-02-01 14:29 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /Controller?command=auto_redactor
+2018-02-01 14:29 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:29 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:29 [TRACE]                Controller:    62 - Request parameter: command --> auto_redactor
+2018-02-01 14:29 [TRACE]                Controller:    64 - Obtained command --> AutoRedactorCommand
+2018-02-01 14:29 [TRACE]                Controller:    74 - Forward address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:29 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:29 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:29 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:29 [TRACE]                Controller:    62 - Request parameter: command --> auto_redactor
+2018-02-01 14:29 [TRACE]                Controller:    64 - Obtained command --> AutoRedactorCommand
+2018-02-01 14:29 [TRACE]                Controller:    74 - Forward address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:29 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:29 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:29 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:29 [TRACE]                Controller:    62 - Request parameter: command --> auto_redactor
+2018-02-01 14:29 [TRACE]                Controller:    64 - Obtained command --> AutoRedactorCommand
+2018-02-01 14:29 [TRACE]                Controller:    74 - Forward address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:29 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:29 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:29 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:29 [TRACE]                Controller:    62 - Request parameter: command --> auto_redactor
+2018-02-01 14:29 [TRACE]                Controller:    64 - Obtained command --> AutoRedactorCommand
+2018-02-01 14:29 [TRACE]                Controller:    74 - Forward address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:29 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:30 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:30 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:30 [TRACE]                Controller:    62 - Request parameter: command --> car_list
+2018-02-01 14:30 [TRACE]                Controller:    64 - Obtained command --> CarListCommand
+2018-02-01 14:30 [TRACE]                Controller:    74 - Forward address --> /view/car_list.jsp
+2018-02-01 14:30 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-02-01 14:30 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:30 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:30 [TRACE]                Controller:    62 - Request parameter: command --> auto_redactor
+2018-02-01 14:30 [TRACE]                Controller:    64 - Obtained command --> AutoRedactorCommand
+2018-02-01 14:30 [TRACE]                Controller:    74 - Forward address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:30 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:31 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:31 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:31 [TRACE]                Controller:    62 - Request parameter: command --> edit_car
+2018-02-01 14:31 [TRACE]                Controller:    64 - Obtained command --> EditCarCommand
+2018-02-01 14:31 [TRACE]                Controller:    74 - Forward address --> /view/admin/edit_car.jsp
+2018-02-01 14:31 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/admin/edit_car.jsp
+2018-02-01 14:31 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:31 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:31 [TRACE]                Controller:    37 - Request parameter: command --> change_car
+2018-02-01 14:31 [TRACE]                Controller:    39 - Obtained command --> ChangeCarCommand
+2018-02-01 14:31 [TRACE]                Controller:    52 - Forward address --> /Controller?command=auto_redactor
+2018-02-01 14:31 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /Controller?command=auto_redactor
+2018-02-01 14:31 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:31 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:31 [TRACE]                Controller:    62 - Request parameter: command --> auto_redactor
+2018-02-01 14:31 [TRACE]                Controller:    64 - Obtained command --> AutoRedactorCommand
+2018-02-01 14:31 [TRACE]                Controller:    74 - Forward address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:31 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:31 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:31 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:31 [TRACE]                Controller:    62 - Request parameter: command --> edit_car
+2018-02-01 14:31 [TRACE]                Controller:    64 - Obtained command --> EditCarCommand
+2018-02-01 14:31 [TRACE]                Controller:    74 - Forward address --> /view/admin/edit_car.jsp
+2018-02-01 14:31 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/admin/edit_car.jsp
+2018-02-01 14:32 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:32 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:32 [TRACE]                Controller:    37 - Request parameter: command --> change_car
+2018-02-01 14:32 [TRACE]                Controller:    39 - Obtained command --> ChangeCarCommand
+2018-02-01 14:32 [TRACE]                Controller:    52 - Forward address --> /Controller?command=auto_redactor
+2018-02-01 14:32 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /Controller?command=auto_redactor
+2018-02-01 14:32 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:32 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:32 [TRACE]                Controller:    62 - Request parameter: command --> auto_redactor
+2018-02-01 14:32 [TRACE]                Controller:    64 - Obtained command --> AutoRedactorCommand
+2018-02-01 14:32 [TRACE]                Controller:    74 - Forward address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:32 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:32 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:32 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:32 [TRACE]                Controller:    62 - Request parameter: command --> auto_redactor
+2018-02-01 14:32 [TRACE]                Controller:    64 - Obtained command --> AutoRedactorCommand
+2018-02-01 14:32 [TRACE]                Controller:    74 - Forward address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:32 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:32 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:32 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:32 [TRACE]                Controller:    62 - Request parameter: command --> edit_car
+2018-02-01 14:32 [TRACE]                Controller:    64 - Obtained command --> EditCarCommand
+2018-02-01 14:32 [TRACE]                Controller:    74 - Forward address --> /view/admin/edit_car.jsp
+2018-02-01 14:32 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/admin/edit_car.jsp
+2018-02-01 14:32 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:32 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:32 [TRACE]                Controller:    37 - Request parameter: command --> delete_car
+2018-02-01 14:32 [TRACE]                Controller:    39 - Obtained command --> DeleteCarCommand
+2018-02-01 14:32 [TRACE]                Controller:    52 - Forward address --> /Controller?command=auto_redactor
+2018-02-01 14:32 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /Controller?command=auto_redactor
+2018-02-01 14:32 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:32 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:32 [TRACE]                Controller:    62 - Request parameter: command --> auto_redactor
+2018-02-01 14:32 [TRACE]                Controller:    64 - Obtained command --> AutoRedactorCommand
+2018-02-01 14:32 [TRACE]                Controller:    74 - Forward address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:32 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:33 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:33 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:33 [TRACE]                Controller:    62 - Request parameter: command --> new_car
+2018-02-01 14:33 [TRACE]                Controller:    64 - Obtained command --> NewCarCommand
+2018-02-01 14:33 [TRACE]                Controller:    74 - Forward address --> /view/admin/new_car.jsp
+2018-02-01 14:33 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/admin/new_car.jsp
+2018-02-01 14:33 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:33 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:33 [TRACE]                Controller:    37 - Request parameter: command --> create_car
+2018-02-01 14:33 [TRACE]                Controller:    39 - Obtained command --> CreateCarCommand
+2018-02-01 14:33 [TRACE]                Controller:    52 - Forward address --> /Controller?command=auto_redactor
+2018-02-01 14:33 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /Controller?command=auto_redactor
+2018-02-01 14:33 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:33 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:33 [TRACE]                Controller:    62 - Request parameter: command --> auto_redactor
+2018-02-01 14:33 [TRACE]                Controller:    64 - Obtained command --> AutoRedactorCommand
+2018-02-01 14:33 [TRACE]                Controller:    74 - Forward address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:33 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/admin/auto_redactor.jsp
+2018-02-01 14:34 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:34 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:34 [TRACE]                Controller:    62 - Request parameter: command --> admin_user_edit
+2018-02-01 14:34 [TRACE]                Controller:    64 - Obtained command --> EditUserCommand
+2018-02-01 14:34 [TRACE]                Controller:    74 - Forward address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:34 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:34 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:34 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:34 [TRACE]                Controller:    62 - Request parameter: command --> car_list
+2018-02-01 14:34 [TRACE]                Controller:    64 - Obtained command --> CarListCommand
+2018-02-01 14:34 [TRACE]                Controller:    74 - Forward address --> /view/car_list.jsp
+2018-02-01 14:34 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-02-01 14:34 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:34 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:34 [TRACE]                Controller:    62 - Request parameter: command --> choose_car
+2018-02-01 14:34 [TRACE]                Controller:    64 - Obtained command --> ChooseCarCommand
+2018-02-01 14:34 [TRACE]                Controller:    74 - Forward address --> view/choose_car.jsp
+2018-02-01 14:34 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-02-01 14:34 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:34 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:34 [TRACE]                Controller:    62 - Request parameter: command --> make_order
+2018-02-01 14:34 [TRACE]                Controller:    64 - Obtained command --> MakeOrderCommand
+2018-02-01 14:34 [TRACE]          MakeOrderCommand:    37 - get a car -->Car [id=15, mark=ukraine, model=soska, autoClass=J, imageURL=zapor.jpg, body=hetchback, engine=22.8, transmission=automat kalashnikova, fuel=kakashki, price=0]
+2018-02-01 14:34 [TRACE]                Controller:    74 - Forward address --> view/orders/make_order.jsp
+2018-02-01 14:34 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> view/orders/make_order.jsp
+2018-02-01 14:34 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:34 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:34 [TRACE]                Controller:    37 - Request parameter: command --> paste_order
+2018-02-01 14:34 [TRACE]                Controller:    39 - Obtained command --> FormingOrder
+2018-02-01 14:34 [TRACE]              FormingOrder:    53 - Request parameter: carId --> 15
+2018-02-01 14:34 [TRACE]              FormingOrder:    54 - Request parameter: carPrice--> 0
+2018-02-01 14:34 [TRACE]              FormingOrder:    62 - Request parameter: dateStart --> 2018-02-02
+2018-02-01 14:34 [TRACE]              FormingOrder:    64 - Request parameter: dateEnd --> 2018-02-06
+2018-02-01 14:34 [TRACE]              FormingOrder:    66 - Request parameter: dateBirth --> 1997-02-02
+2018-02-01 14:34 [TRACE]              FormingOrder:    89 - Here is order : Order [userId=2, id=0, days=5, price=100, statusId=0, withDriver=true, dateStart=2018-02-02, dateEnd=2018-02-06, reason=null, name=ruslan, surname=bay, patronymic=dasdsa, city=kharkov, sex=male, borningDate=1997-02-02]
+2018-02-01 14:34 [TRACE]              FormingOrder:    90 - Here is car :Car [id=15, mark=ukraine, model=soska, autoClass=J, imageURL=zapor.jpg, body=hetchback, engine=22.8, transmission=automat kalashnikova, fuel=kakashki, price=0]
+2018-02-01 14:34 [TRACE]                Controller:    52 - Forward address --> /view/orders/forming_account.jsp
+2018-02-01 14:34 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /view/orders/forming_account.jsp
+2018-02-01 14:34 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:34 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:34 [TRACE]                Controller:    37 - Request parameter: command --> paste_order
+2018-02-01 14:34 [TRACE]                Controller:    39 - Obtained command --> FormingOrder
+2018-02-01 14:34 [TRACE]              FormingOrder:    53 - Request parameter: carId --> 15
+2018-02-01 14:34 [TRACE]              FormingOrder:    54 - Request parameter: carPrice--> 0
+2018-02-01 14:34 [TRACE]              FormingOrder:    62 - Request parameter: dateStart --> 2018-02-02
+2018-02-01 14:34 [TRACE]              FormingOrder:    64 - Request parameter: dateEnd --> 2018-02-06
+2018-02-01 14:34 [TRACE]              FormingOrder:    66 - Request parameter: dateBirth --> 1997-02-02
+2018-02-01 14:34 [TRACE]              FormingOrder:    89 - Here is order : Order [userId=2, id=0, days=5, price=0, statusId=0, withDriver=false, dateStart=2018-02-02, dateEnd=2018-02-06, reason=null, name=ruslan, surname=bay, patronymic=dasdsa, city=kharkov, sex=male, borningDate=1997-02-02]
+2018-02-01 14:34 [TRACE]              FormingOrder:    90 - Here is car :Car [id=15, mark=ukraine, model=soska, autoClass=J, imageURL=zapor.jpg, body=hetchback, engine=22.8, transmission=automat kalashnikova, fuel=kakashki, price=0]
+2018-02-01 14:34 [TRACE]                Controller:    52 - Forward address --> /view/orders/forming_account.jsp
+2018-02-01 14:34 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /view/orders/forming_account.jsp
+2018-02-01 14:35 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:35 [DEBUG]                Controller:    35 - Controller starts(POST)
+2018-02-01 14:35 [TRACE]                Controller:    37 - Request parameter: command --> paste_account
+2018-02-01 14:35 [TRACE]                Controller:    39 - Obtained command --> PasteAccountCommand
+2018-02-01 14:35 [TRACE]                 DBManager:   851 - com.mysql.jdbc.JDBC42PreparedStatement@3c2052dc: INSERT INTO orders(userId,statusId,days,price,withDriver,dateStart,dateEnd,name,surname,patronymic,sex,city,borningDate) VALUES(2,1,5,0,0,'2018-02-02','2018-02-06','ruslan','bay','dasdsa','male','kharkov','1997-02-02')
+2018-02-01 14:35 [TRACE]                 DBManager:   857 - i set ord id to 23
+2018-02-01 14:35 [TRACE]                 DBManager:   883 - com.mysql.jdbc.JDBC42PreparedStatement@564ad2d9: INSERT INTO accounts(userId,statusId,price,dateCreate,message) VALUES(2,1,0,'2018-02-01','Покупка')
+2018-02-01 14:35 [TRACE]       PasteAccountCommand:    45 - account-->Account [id=0, userId=2, price=0, statusId=1, dateCreate=2018-02-01, message=Покупка]
+2018-02-01 14:35 [TRACE]       PasteAccountCommand:    46 - order-->Order [userId=2, id=23, days=5, price=0, statusId=1, withDriver=false, dateStart=2018-02-02, dateEnd=2018-02-06, reason=null, name=ruslan, surname=bay, patronymic=dasdsa, city=kharkov, sex=male, borningDate=1997-02-02]
+2018-02-01 14:35 [TRACE]                Controller:    52 - Forward address --> /MainPage
+2018-02-01 14:35 [DEBUG]                Controller:    53 - Controller finished, now go redirect --> /MainPage
+2018-02-01 14:35 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:35 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:35 [TRACE]                Controller:    62 - Request parameter: command --> my_accounts_not_payed
+2018-02-01 14:35 [TRACE]                Controller:    64 - Obtained command --> MyAccountsNotPayedCommand
+2018-02-01 14:35 [TRACE]                Controller:    74 - Forward address --> /view/accounts/my_accounts_not_payed.jsp
+2018-02-01 14:35 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/accounts/my_accounts_not_payed.jsp
+2018-02-01 14:35 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:35 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:35 [TRACE]                Controller:    62 - Request parameter: command --> my_accounts_not_payed
+2018-02-01 14:35 [TRACE]                Controller:    64 - Obtained command --> MyAccountsNotPayedCommand
+2018-02-01 14:35 [TRACE]                Controller:    74 - Forward address --> /view/accounts/my_accounts_not_payed.jsp
+2018-02-01 14:35 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/accounts/my_accounts_not_payed.jsp
+2018-02-01 14:35 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:35 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:35 [TRACE]                Controller:    62 - Request parameter: command --> my_accounts
+2018-02-01 14:35 [TRACE]                Controller:    64 - Obtained command --> MyAccountsCommand
+2018-02-01 14:35 [TRACE]                Controller:    74 - Forward address --> /view/accounts/my_accounts.jsp
+2018-02-01 14:35 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/accounts/my_accounts.jsp
+2018-02-01 14:35 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:35 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:35 [TRACE]                Controller:    62 - Request parameter: command --> orders_edit
+2018-02-01 14:35 [TRACE]                Controller:    64 - Obtained command --> ManagerOrdersEditCommand
+2018-02-01 14:35 [TRACE]                Controller:    74 - Forward address --> /view/manager/orders_edit.jsp
+2018-02-01 14:35 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-02-01 14:35 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:35 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:35 [TRACE]                Controller:    62 - Request parameter: command --> admin_user_edit
+2018-02-01 14:35 [TRACE]                Controller:    64 - Obtained command --> EditUserCommand
+2018-02-01 14:35 [TRACE]                Controller:    74 - Forward address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:35 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:35 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:35 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:35 [TRACE]                Controller:    62 - Request parameter: command --> car_list
+2018-02-01 14:35 [TRACE]                Controller:    64 - Obtained command --> CarListCommand
+2018-02-01 14:35 [TRACE]                Controller:    74 - Forward address --> /view/car_list.jsp
+2018-02-01 14:35 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-02-01 14:35 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:35 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:35 [TRACE]                Controller:    62 - Request parameter: command --> admin_user_edit
+2018-02-01 14:35 [TRACE]                Controller:    64 - Obtained command --> EditUserCommand
+2018-02-01 14:35 [TRACE]                Controller:    74 - Forward address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:35 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:35 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:35 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:35 [TRACE]                Controller:    62 - Request parameter: command --> admin_user_edit
+2018-02-01 14:35 [TRACE]                Controller:    64 - Obtained command --> EditUserCommand
+2018-02-01 14:35 [TRACE]                Controller:    74 - Forward address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:35 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:35 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:35 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:35 [TRACE]                Controller:    62 - Request parameter: command --> my_accounts_not_payed
+2018-02-01 14:35 [TRACE]                Controller:    64 - Obtained command --> MyAccountsNotPayedCommand
+2018-02-01 14:35 [TRACE]                Controller:    74 - Forward address --> /view/accounts/my_accounts_not_payed.jsp
+2018-02-01 14:35 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/accounts/my_accounts_not_payed.jsp
+2018-02-01 14:35 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:35 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:35 [TRACE]                Controller:    62 - Request parameter: command --> my_accounts
+2018-02-01 14:35 [TRACE]                Controller:    64 - Obtained command --> MyAccountsCommand
+2018-02-01 14:35 [TRACE]                Controller:    74 - Forward address --> /view/accounts/my_accounts.jsp
+2018-02-01 14:35 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/accounts/my_accounts.jsp
+2018-02-01 14:36 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:36 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:36 [TRACE]                Controller:    62 - Request parameter: command --> orders_wait
+2018-02-01 14:36 [TRACE]                Controller:    64 - Obtained command --> OrdersWaitCommand
+2018-02-01 14:36 [TRACE]         OrdersWaitCommand:    32 - Here is orders -->[Order [userId=2, id=3, days=3, price=807, statusId=1, withDriver=false, dateStart=2018-02-01, dateEnd=2018-02-03, reason=null, name=Борис, surname=Моисеев, patronymic=Ростиславович, city=Полтава, sex=male, borningDate=1980-05-04], Order [userId=2, id=13, days=7, price=1260, statusId=1, withDriver=true, dateStart=2018-02-01, dateEnd=2018-02-07, reason=null, name=ruslan, surname=bay, patronymic=alexandrovich, city=kharkov, sex=male, borningDate=1997-02-01], Order [userId=2, id=18, days=1, price=200, statusId=1, withDriver=true, dateStart=2018-02-01, dateEnd=2018-02-01, reason=null, name=ruslan, surname=bay, patronymic=dfkdf, city=kharkov, sex=male, borningDate=1996-02-01], Order [userId=2, id=20, days=1, price=200, statusId=1, withDriver=true, dateStart=2018-02-02, dateEnd=2018-02-02, reason=null, name=ruslan, surname=bay, patronymic=asdasd, city=kharkov, sex=male, borningDate=1997-02-01], Order [userId=2, id=23, days=5, price=0, statusId=1, withDriver=false, dateStart=2018-02-02, dateEnd=2018-02-06, reason=null, name=ruslan, surname=bay, patronymic=dasdsa, city=kharkov, sex=male, borningDate=1997-02-02]]
+2018-02-01 14:36 [TRACE]                Controller:    74 - Forward address --> /view/orders/orders_wait.jsp
+2018-02-01 14:36 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/orders/orders_wait.jsp
+2018-02-01 14:36 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:36 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:36 [TRACE]                Controller:    62 - Request parameter: command --> admin_user_edit
+2018-02-01 14:36 [TRACE]                Controller:    64 - Obtained command --> EditUserCommand
+2018-02-01 14:36 [TRACE]                Controller:    74 - Forward address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:36 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> view/admin/admin_user_edit.jsp
+2018-02-01 14:36 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:36 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:36 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:36 [TRACE]                Controller:    62 - Request parameter: command --> car_list
+2018-02-01 14:36 [TRACE]                Controller:    64 - Obtained command --> CarListCommand
+2018-02-01 14:36 [TRACE]                Controller:    74 - Forward address --> /view/car_list.jsp
+2018-02-01 14:36 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-02-01 14:36 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:36 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:36 [TRACE]                Controller:    62 - Request parameter: command --> car_list
+2018-02-01 14:36 [TRACE]                Controller:    64 - Obtained command --> CarListCommand
+2018-02-01 14:36 [TRACE]                Controller:    74 - Forward address --> /view/car_list.jsp
+2018-02-01 14:36 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-02-01 14:36 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:36 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:36 [TRACE]                Controller:    62 - Request parameter: command --> logout
+2018-02-01 14:36 [TRACE]                Controller:    64 - Obtained command --> LogoutCommand
+2018-02-01 14:36 [TRACE]                Controller:    74 - Forward address --> /MainPage
+2018-02-01 14:36 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /MainPage
+2018-02-01 14:38 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:38 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:38 [TRACE]                Controller:    62 - Request parameter: command --> choose_car
+2018-02-01 14:38 [TRACE]                Controller:    64 - Obtained command --> ChooseCarCommand
+2018-02-01 14:38 [TRACE]                Controller:    74 - Forward address --> /view/error/error_page.jsp
+2018-02-01 14:38 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/error/error_page.jsp
+2018-02-01 14:39 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:39 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:39 [TRACE]                Controller:    62 - Request parameter: command --> car_list
+2018-02-01 14:39 [TRACE]                Controller:    64 - Obtained command --> CarListCommand
+2018-02-01 14:39 [TRACE]                Controller:    74 - Forward address --> /view/car_list.jsp
+2018-02-01 14:39 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-02-01 14:39 [DEBUG]            EncodingFilter:    26 - enc
+2018-02-01 14:39 [DEBUG]                Controller:    60 - Controller starts
+2018-02-01 14:39 [TRACE]                Controller:    62 - Request parameter: command --> choose_car
+2018-02-01 14:39 [TRACE]                Controller:    64 - Obtained command --> ChooseCarCommand
+2018-02-01 14:39 [TRACE]                Controller:    74 - Forward address --> view/choose_car.jsp
+2018-02-01 14:39 [DEBUG]                Controller:    75 - Controller finished, now go to redirect address --> view/choose_car.jsp

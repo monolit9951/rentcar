@@ -1,0 +1,1591 @@
+2018-01-22 16:02 [DEBUG]                Controller:    37 - Controller starts
+2018-01-22 16:02 [TRACE]                Controller:    41 - Request parameter: command --> login
+2018-01-22 16:02 [TRACE]                Controller:    45 - Obtained command --> LoginCommand
+2018-01-22 16:02 [TRACE]              LoginCommand:    31 - Request parameter: loging --> monolit9951
+2018-01-22 16:02 [TRACE]              LoginCommand:    46 - Set the session attribute: user --> User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN]
+2018-01-22 16:02 [TRACE]              LoginCommand:    48 - Set the session attribute: role --> ADMIN
+2018-01-22 16:02 [ INFO]              LoginCommand:    49 - User User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN] logged as admin
+2018-01-22 16:02 [DEBUG]              LoginCommand:    50 - Command finished
+2018-01-22 16:02 [TRACE]                Controller:    55 - Forward address --> /MainPage
+2018-01-22 16:02 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /MainPage
+2018-01-22 16:02 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:02 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 16:02 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 16:02 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 16:02 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 16:02 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:02 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 16:02 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 16:02 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 16:02 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 16:02 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:02 [TRACE]                Controller:    68 - Request parameter: command --> orders_need_pay
+2018-01-22 16:02 [TRACE]                Controller:    72 - Obtained command --> OrderNeedPayCommand
+2018-01-22 16:02 [TRACE]       OrderNeedPayCommand:    29 - Here is orders -->[Order [userId=4, carId=1, id=1, days=1, price=80, statusId=3, withDriver=true, dateStart=2000-01-01, dateEnd=2000-01-01, name=I am user, surname=01/01/2000, patronymic=01/01/2000, city=01/01/2000, sex=male, borningDate=2000-01-01], Order [userId=7, carId=1, id=2, days=1, price=80, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-01, name=REG, surname=dfs, patronymic=fd, city=dfs, sex=male, borningDate=2000-03-01], Order [userId=10, carId=14, id=3, days=3, price=144, statusId=3, withDriver=false, dateStart=2018-02-01, dateEnd=2018-02-03, name=Name, surname=Surname, patronymic=, city=City, sex=male, borningDate=2000-02-01], Order [userId=1, carId=3, id=4, days=3, price=240, statusId=3, withDriver=true, dateStart=2000-01-16, dateEnd=2000-01-18, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2018-01-18], Order [userId=1, carId=6, id=5, days=2, price=70, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-02]]
+2018-01-22 16:02 [TRACE]                Controller:    83 - Forward address --> /view/orders/orders_need_pay.jsp
+2018-01-22 16:02 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/orders_need_pay.jsp
+2018-01-22 16:02 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:02 [TRACE]                Controller:    68 - Request parameter: command --> get_order
+2018-01-22 16:02 [TRACE]                Controller:    72 - Obtained command --> OrderGetCommand
+2018-01-22 16:02 [TRACE]                Controller:    83 - Forward address --> /view/orders/order.jsp
+2018-01-22 16:02 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order.jsp
+2018-01-22 16:02 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:02 [TRACE]                Controller:    68 - Request parameter: command --> logout
+2018-01-22 16:02 [TRACE]                Controller:    72 - Obtained command --> LogoutCommand
+2018-01-22 16:02 [TRACE]                Controller:    83 - Forward address --> /MainPage
+2018-01-22 16:02 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /MainPage
+2018-01-22 16:02 [DEBUG]                Controller:    37 - Controller starts
+2018-01-22 16:02 [TRACE]                Controller:    41 - Request parameter: command --> login
+2018-01-22 16:02 [TRACE]                Controller:    45 - Obtained command --> LoginCommand
+2018-01-22 16:02 [TRACE]              LoginCommand:    31 - Request parameter: loging --> monolit9951
+2018-01-22 16:02 [TRACE]              LoginCommand:    46 - Set the session attribute: user --> User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN]
+2018-01-22 16:02 [TRACE]              LoginCommand:    48 - Set the session attribute: role --> ADMIN
+2018-01-22 16:02 [ INFO]              LoginCommand:    49 - User User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN] logged as admin
+2018-01-22 16:02 [DEBUG]              LoginCommand:    50 - Command finished
+2018-01-22 16:02 [TRACE]                Controller:    55 - Forward address --> /MainPage
+2018-01-22 16:02 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /MainPage
+2018-01-22 16:02 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:02 [TRACE]                Controller:    68 - Request parameter: command --> logout
+2018-01-22 16:02 [TRACE]                Controller:    72 - Obtained command --> LogoutCommand
+2018-01-22 16:02 [TRACE]                Controller:    83 - Forward address --> /MainPage
+2018-01-22 16:02 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /MainPage
+2018-01-22 16:03 [DEBUG]                Controller:    37 - Controller starts
+2018-01-22 16:03 [TRACE]                Controller:    41 - Request parameter: command --> login
+2018-01-22 16:03 [TRACE]                Controller:    45 - Obtained command --> LoginCommand
+2018-01-22 16:03 [TRACE]              LoginCommand:    31 - Request parameter: loging --> REGISTER
+2018-01-22 16:03 [DEBUG]                Controller:    37 - Controller starts
+2018-01-22 16:03 [TRACE]                Controller:    41 - Request parameter: command --> reg
+2018-01-22 16:03 [TRACE]                Controller:    45 - Obtained command --> RegisterCommand
+2018-01-22 16:03 [DEBUG]           RegisterCommand:    33 - Register Command
+2018-01-22 16:03 [TRACE]           RegisterCommand:    41 - request login : hfasjaf
+2018-01-22 16:03 [TRACE]           RegisterCommand:    56 - I added user ---> User [id=0, roleId=2, login=hfasjaf, password=fjhsfd, name=aslkndas, surname=asdaksdnl, city=adsnlsdak, number=380990091049, role=USER]
+2018-01-22 16:03 [TRACE]                Controller:    55 - Forward address --> /view/login.html
+2018-01-22 16:03 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /view/login.html
+2018-01-22 16:03 [DEBUG]                Controller:    37 - Controller starts
+2018-01-22 16:03 [TRACE]                Controller:    41 - Request parameter: command --> login
+2018-01-22 16:03 [TRACE]                Controller:    45 - Obtained command --> LoginCommand
+2018-01-22 16:03 [TRACE]              LoginCommand:    31 - Request parameter: loging --> monolit9951
+2018-01-22 16:03 [TRACE]              LoginCommand:    46 - Set the session attribute: user --> User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN]
+2018-01-22 16:03 [TRACE]              LoginCommand:    48 - Set the session attribute: role --> ADMIN
+2018-01-22 16:03 [ INFO]              LoginCommand:    49 - User User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN] logged as admin
+2018-01-22 16:03 [DEBUG]              LoginCommand:    50 - Command finished
+2018-01-22 16:03 [TRACE]                Controller:    55 - Forward address --> /MainPage
+2018-01-22 16:03 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /MainPage
+2018-01-22 16:03 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:03 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 16:03 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 16:03 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 16:03 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 16:46 [DEBUG]                Controller:    37 - Controller starts
+2018-01-22 16:46 [TRACE]                Controller:    41 - Request parameter: command --> login
+2018-01-22 16:46 [TRACE]                Controller:    45 - Obtained command --> LoginCommand
+2018-01-22 16:46 [TRACE]              LoginCommand:    31 - Request parameter: loging --> monolit9951
+2018-01-22 16:46 [TRACE]              LoginCommand:    46 - Set the session attribute: user --> User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN]
+2018-01-22 16:46 [TRACE]              LoginCommand:    48 - Set the session attribute: role --> ADMIN
+2018-01-22 16:46 [ INFO]              LoginCommand:    49 - User User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN] logged as admin
+2018-01-22 16:46 [DEBUG]              LoginCommand:    50 - Command finished
+2018-01-22 16:46 [TRACE]                Controller:    55 - Forward address --> /MainPage
+2018-01-22 16:46 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /MainPage
+2018-01-22 16:46 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:46 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 16:46 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 16:46 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 16:46 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 16:46 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:46 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 16:46 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 16:46 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 16:46 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 16:47 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:47 [TRACE]                Controller:    68 - Request parameter: command --> orders_need_pay
+2018-01-22 16:47 [TRACE]                Controller:    72 - Obtained command --> OrderNeedPayCommand
+2018-01-22 16:47 [TRACE]       OrderNeedPayCommand:    32 - Here is orders -->[]
+2018-01-22 16:47 [TRACE]                Controller:    83 - Forward address --> /view/orders/orders_need_pay.jsp
+2018-01-22 16:47 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/orders_need_pay.jsp
+2018-01-22 16:47 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:47 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 16:47 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 16:47 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 16:47 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 16:47 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:47 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 16:47 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 16:47 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 16:47 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 16:47 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:47 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 16:47 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 16:47 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 16:47 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 16:47 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:47 [TRACE]                Controller:    68 - Request parameter: command --> make_order
+2018-01-22 16:47 [TRACE]                Controller:    72 - Obtained command --> MakeOrderCommand
+2018-01-22 16:47 [TRACE]          MakeOrderCommand:    34 - get a car -->Car [id=2, mark=Toyota, model=Land Cruiser Prado, autoClass=J, imageURL=toyota_landcruiser.jpg, body=Хэтчбэк, engine=4.2, transmission=автомат, fuel=бензин, price=180]
+2018-01-22 16:47 [TRACE]                Controller:    83 - Forward address --> view/orders/make_order.jsp
+2018-01-22 16:47 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/orders/make_order.jsp
+2018-01-22 16:47 [DEBUG]                Controller:    37 - Controller starts
+2018-01-22 16:47 [TRACE]                Controller:    41 - Request parameter: command --> paste_order
+2018-01-22 16:47 [TRACE]                Controller:    45 - Obtained command --> PasteOrderCommand
+2018-01-22 16:47 [TRACE]         PasteOrderCommand:    32 - userRole --> ADMIN
+2018-01-22 16:47 [TRACE]         PasteOrderCommand:    46 - Request parameter: carId --> 2
+2018-01-22 16:47 [TRACE]         PasteOrderCommand:    47 - Request parameter: carPrice--> 180
+2018-01-22 16:47 [TRACE]         PasteOrderCommand:    55 - Request parameter: dateStart --> 2000-03-01
+2018-01-22 16:47 [TRACE]         PasteOrderCommand:    57 - Request parameter: dateEnd --> 2000-03-02
+2018-01-22 16:47 [TRACE]         PasteOrderCommand:    59 - Request parameter: dateBirth --> 2000-03-01
+2018-01-22 16:47 [TRACE]         PasteOrderCommand:    71 - Here is order : Order [userId=1, carId=2, id=0, days=2, price=360, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-01]
+2018-01-22 16:47 [TRACE]                 DBManager:   337 - com.mysql.jdbc.JDBC42PreparedStatement@bfc49b8: INSERT INTO orders(userId,statusId,carId,days,price,withDriver,dateStart,dateEnd,name,surname,patronymic,sex,city,borningDate) VALUES(1,3,2,2,360,1,'2000-03-01','2000-03-02','ruslan','bay','alexandro','male','kharkov','2000-03-01')
+2018-01-22 16:47 [TRACE]                Controller:    55 - Forward address --> /MainPage
+2018-01-22 16:47 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /MainPage
+2018-01-22 16:47 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:47 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 16:47 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 16:47 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 16:47 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 16:47 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:47 [TRACE]                Controller:    68 - Request parameter: command --> orders_need_pay
+2018-01-22 16:47 [TRACE]                Controller:    72 - Obtained command --> OrderNeedPayCommand
+2018-01-22 16:47 [TRACE]       OrderNeedPayCommand:    32 - Here is orders -->[]
+2018-01-22 16:47 [TRACE]                Controller:    83 - Forward address --> /view/orders/orders_need_pay.jsp
+2018-01-22 16:47 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/orders_need_pay.jsp
+2018-01-22 16:50 [DEBUG]                Controller:    37 - Controller starts
+2018-01-22 16:50 [TRACE]                Controller:    41 - Request parameter: command --> login
+2018-01-22 16:50 [TRACE]                Controller:    45 - Obtained command --> LoginCommand
+2018-01-22 16:50 [TRACE]              LoginCommand:    31 - Request parameter: loging --> monolit9951
+2018-01-22 16:50 [TRACE]              LoginCommand:    46 - Set the session attribute: user --> User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN]
+2018-01-22 16:50 [TRACE]              LoginCommand:    48 - Set the session attribute: role --> ADMIN
+2018-01-22 16:50 [ INFO]              LoginCommand:    49 - User User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN] logged as admin
+2018-01-22 16:50 [DEBUG]              LoginCommand:    50 - Command finished
+2018-01-22 16:50 [TRACE]                Controller:    55 - Forward address --> /MainPage
+2018-01-22 16:50 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /MainPage
+2018-01-22 16:50 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:50 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 16:50 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 16:50 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 16:50 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 16:50 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:50 [TRACE]                Controller:    68 - Request parameter: command --> orders_need_pay
+2018-01-22 16:50 [TRACE]                Controller:    72 - Obtained command --> OrderNeedPayCommand
+2018-01-22 16:51 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:51 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 16:51 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 16:51 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 16:51 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 16:51 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:51 [TRACE]                Controller:    68 - Request parameter: command --> orders_need_pay
+2018-01-22 16:51 [TRACE]                Controller:    72 - Obtained command --> OrderNeedPayCommand
+2018-01-22 16:51 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:51 [TRACE]                Controller:    68 - Request parameter: command --> logout
+2018-01-22 16:51 [TRACE]                Controller:    72 - Obtained command --> LogoutCommand
+2018-01-22 16:51 [TRACE]                Controller:    83 - Forward address --> /MainPage
+2018-01-22 16:51 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /MainPage
+2018-01-22 16:52 [DEBUG]                Controller:    37 - Controller starts
+2018-01-22 16:52 [TRACE]                Controller:    41 - Request parameter: command --> login
+2018-01-22 16:52 [TRACE]                Controller:    45 - Obtained command --> LoginCommand
+2018-01-22 16:52 [TRACE]              LoginCommand:    31 - Request parameter: loging --> monolit9951
+2018-01-22 16:52 [TRACE]              LoginCommand:    46 - Set the session attribute: user --> User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN]
+2018-01-22 16:52 [TRACE]              LoginCommand:    48 - Set the session attribute: role --> ADMIN
+2018-01-22 16:52 [ INFO]              LoginCommand:    49 - User User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN] logged as admin
+2018-01-22 16:52 [DEBUG]              LoginCommand:    50 - Command finished
+2018-01-22 16:52 [TRACE]                Controller:    55 - Forward address --> /MainPage
+2018-01-22 16:52 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /MainPage
+2018-01-22 16:52 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:52 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 16:52 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 16:52 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 16:52 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 16:52 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:52 [TRACE]                Controller:    68 - Request parameter: command --> orders_need_pay
+2018-01-22 16:52 [TRACE]                Controller:    72 - Obtained command --> OrderNeedPayCommand
+2018-01-22 16:52 [TRACE]       OrderNeedPayCommand:    32 - Here is orders -->[Order [userId=1, carId=3, id=4, days=3, price=240, statusId=3, withDriver=true, dateStart=2000-01-16, dateEnd=2000-01-18, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2018-01-18], Order [userId=1, carId=6, id=5, days=2, price=70, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-02], Order [userId=1, carId=2, id=6, days=2, price=360, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-01]]
+2018-01-22 16:52 [TRACE]                Controller:    83 - Forward address --> /view/orders/orders_need_pay.jsp
+2018-01-22 16:52 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/orders_need_pay.jsp
+2018-01-22 16:52 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:52 [TRACE]                Controller:    68 - Request parameter: command --> get_order
+2018-01-22 16:52 [TRACE]                Controller:    72 - Obtained command --> OrderGetCommand
+2018-01-22 16:52 [TRACE]                Controller:    83 - Forward address --> /view/orders/order.jsp
+2018-01-22 16:52 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order.jsp
+2018-01-22 16:52 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:52 [TRACE]                Controller:    68 - Request parameter: command --> get_order
+2018-01-22 16:52 [TRACE]                Controller:    72 - Obtained command --> OrderGetCommand
+2018-01-22 16:52 [TRACE]                Controller:    83 - Forward address --> /view/orders/order.jsp
+2018-01-22 16:52 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order.jsp
+2018-01-22 16:52 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:52 [TRACE]                Controller:    68 - Request parameter: command --> get_order
+2018-01-22 16:52 [TRACE]                Controller:    72 - Obtained command --> OrderGetCommand
+2018-01-22 16:52 [TRACE]                Controller:    83 - Forward address --> /view/orders/order.jsp
+2018-01-22 16:52 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order.jsp
+2018-01-22 16:52 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:52 [TRACE]                Controller:    68 - Request parameter: command --> logout
+2018-01-22 16:52 [TRACE]                Controller:    72 - Obtained command --> LogoutCommand
+2018-01-22 16:52 [TRACE]                Controller:    83 - Forward address --> /MainPage
+2018-01-22 16:52 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /MainPage
+2018-01-22 16:55 [DEBUG]                Controller:    37 - Controller starts
+2018-01-22 16:55 [TRACE]                Controller:    41 - Request parameter: command --> login
+2018-01-22 16:55 [TRACE]                Controller:    45 - Obtained command --> LoginCommand
+2018-01-22 16:55 [TRACE]              LoginCommand:    31 - Request parameter: loging --> monolit9951
+2018-01-22 16:55 [TRACE]              LoginCommand:    46 - Set the session attribute: user --> User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN]
+2018-01-22 16:55 [TRACE]              LoginCommand:    48 - Set the session attribute: role --> ADMIN
+2018-01-22 16:55 [ INFO]              LoginCommand:    49 - User User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN] logged as admin
+2018-01-22 16:55 [DEBUG]              LoginCommand:    50 - Command finished
+2018-01-22 16:55 [TRACE]                Controller:    55 - Forward address --> /MainPage
+2018-01-22 16:55 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /MainPage
+2018-01-22 16:55 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:55 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 16:55 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 16:55 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 16:55 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 16:55 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:55 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 16:55 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 16:55 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 16:55 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 16:55 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:55 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 16:55 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 16:55 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 16:55 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 16:55 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:55 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 16:55 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 16:55 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 16:55 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 16:55 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:55 [TRACE]                Controller:    68 - Request parameter: command --> orders_need_pay
+2018-01-22 16:55 [TRACE]                Controller:    72 - Obtained command --> OrderNeedPayCommand
+2018-01-22 16:55 [TRACE]       OrderNeedPayCommand:    32 - Here is orders -->[Order [userId=1, carId=3, id=4, days=3, price=240, statusId=3, withDriver=true, dateStart=2000-01-16, dateEnd=2000-01-18, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2018-01-18], Order [userId=1, carId=6, id=5, days=2, price=70, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-02], Order [userId=1, carId=2, id=6, days=2, price=360, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-01]]
+2018-01-22 16:55 [TRACE]                Controller:    83 - Forward address --> /view/orders/orders_need_pay.jsp
+2018-01-22 16:55 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/orders_need_pay.jsp
+2018-01-22 16:58 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:58 [TRACE]                Controller:    68 - Request parameter: command --> get_order
+2018-01-22 16:58 [TRACE]                Controller:    72 - Obtained command --> OrderGetCommand
+2018-01-22 16:58 [TRACE]                Controller:    83 - Forward address --> /view/orders/order.jsp
+2018-01-22 16:58 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order.jsp
+2018-01-22 16:58 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 16:58 [TRACE]                Controller:    68 - Request parameter: command --> logout
+2018-01-22 16:58 [TRACE]                Controller:    72 - Obtained command --> LogoutCommand
+2018-01-22 16:58 [TRACE]                Controller:    83 - Forward address --> /MainPage
+2018-01-22 16:58 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /MainPage
+2018-01-22 17:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:06 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 17:06 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 17:06 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 17:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 17:21 [DEBUG]                Controller:    37 - Controller starts
+2018-01-22 17:21 [TRACE]                Controller:    41 - Request parameter: command --> login
+2018-01-22 17:21 [TRACE]                Controller:    45 - Obtained command --> LoginCommand
+2018-01-22 17:21 [TRACE]              LoginCommand:    31 - Request parameter: loging --> monolit9951
+2018-01-22 17:21 [TRACE]              LoginCommand:    46 - Set the session attribute: user --> User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN]
+2018-01-22 17:21 [TRACE]              LoginCommand:    48 - Set the session attribute: role --> ADMIN
+2018-01-22 17:21 [ INFO]              LoginCommand:    49 - User User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN] logged as admin
+2018-01-22 17:21 [DEBUG]              LoginCommand:    50 - Command finished
+2018-01-22 17:21 [TRACE]                Controller:    55 - Forward address --> /MainPage
+2018-01-22 17:21 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /MainPage
+2018-01-22 17:21 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:21 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 17:21 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 17:21 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 17:21 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 17:22 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:22 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 17:22 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 17:22 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 17:22 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 17:22 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:22 [TRACE]                Controller:    68 - Request parameter: command --> admin_menu
+2018-01-22 17:22 [TRACE]                Controller:    72 - Obtained command --> AdminMenuCommand
+2018-01-22 17:22 [TRACE]                Controller:    83 - Forward address --> /view/admin/admin_menu.jsp
+2018-01-22 17:22 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/admin/admin_menu.jsp
+2018-01-22 17:22 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:22 [TRACE]                Controller:    68 - Request parameter: command --> admin_menu
+2018-01-22 17:22 [TRACE]                Controller:    72 - Obtained command --> AdminMenuCommand
+2018-01-22 17:22 [TRACE]                Controller:    83 - Forward address --> /view/admin/admin_menu.jsp
+2018-01-22 17:22 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/admin/admin_menu.jsp
+2018-01-22 17:22 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:22 [TRACE]                Controller:    68 - Request parameter: command --> admin_user_edit
+2018-01-22 17:22 [TRACE]                Controller:    72 - Obtained command --> EditUserCommand
+2018-01-22 17:22 [TRACE]                Controller:    83 - Forward address --> view/admin/admin_user_edit.jsp
+2018-01-22 17:22 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/admin/admin_user_edit.jsp
+2018-01-22 17:22 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:22 [TRACE]                Controller:    68 - Request parameter: command --> admin_menu
+2018-01-22 17:22 [TRACE]                Controller:    72 - Obtained command --> AdminMenuCommand
+2018-01-22 17:22 [TRACE]                Controller:    83 - Forward address --> /view/admin/admin_menu.jsp
+2018-01-22 17:22 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/admin/admin_menu.jsp
+2018-01-22 17:22 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:22 [TRACE]                Controller:    68 - Request parameter: command --> admin_menu
+2018-01-22 17:22 [TRACE]                Controller:    72 - Obtained command --> AdminMenuCommand
+2018-01-22 17:22 [TRACE]                Controller:    83 - Forward address --> /view/admin/admin_menu.jsp
+2018-01-22 17:22 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/admin/admin_menu.jsp
+2018-01-22 17:22 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:22 [TRACE]                Controller:    68 - Request parameter: command --> admin_menu
+2018-01-22 17:22 [TRACE]                Controller:    72 - Obtained command --> AdminMenuCommand
+2018-01-22 17:22 [TRACE]                Controller:    83 - Forward address --> /view/admin/admin_menu.jsp
+2018-01-22 17:22 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/admin/admin_menu.jsp
+2018-01-22 17:22 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:22 [TRACE]                Controller:    68 - Request parameter: command --> admin_user_edit
+2018-01-22 17:22 [TRACE]                Controller:    72 - Obtained command --> EditUserCommand
+2018-01-22 17:22 [TRACE]                Controller:    83 - Forward address --> view/admin/admin_user_edit.jsp
+2018-01-22 17:22 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/admin/admin_user_edit.jsp
+2018-01-22 17:22 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:22 [TRACE]                Controller:    68 - Request parameter: command --> admin_menu
+2018-01-22 17:22 [TRACE]                Controller:    72 - Obtained command --> AdminMenuCommand
+2018-01-22 17:22 [TRACE]                Controller:    83 - Forward address --> /view/admin/admin_menu.jsp
+2018-01-22 17:22 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/admin/admin_menu.jsp
+2018-01-22 17:22 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:22 [TRACE]                Controller:    68 - Request parameter: command --> admin_user_get
+2018-01-22 17:22 [TRACE]                Controller:    72 - Obtained command --> GetUserCommand
+2018-01-22 17:22 [TRACE]                Controller:    83 - Forward address --> view/admin/admin_user_edit.jsp
+2018-01-22 17:22 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/admin/admin_user_edit.jsp
+2018-01-22 17:22 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:22 [TRACE]                Controller:    68 - Request parameter: command --> admin_change_role
+2018-01-22 17:22 [TRACE]                Controller:    72 - Obtained command --> ChangeRoleCommand
+2018-01-22 17:22 [TRACE]                Controller:    83 - Forward address --> view/admin/admin_user_edit.jsp
+2018-01-22 17:22 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/admin/admin_user_edit.jsp
+2018-01-22 17:23 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:23 [TRACE]                Controller:    68 - Request parameter: command --> logout
+2018-01-22 17:23 [TRACE]                Controller:    72 - Obtained command --> LogoutCommand
+2018-01-22 17:23 [TRACE]                Controller:    83 - Forward address --> /MainPage
+2018-01-22 17:23 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /MainPage
+2018-01-22 17:23 [DEBUG]                Controller:    37 - Controller starts
+2018-01-22 17:23 [TRACE]                Controller:    41 - Request parameter: command --> login
+2018-01-22 17:23 [TRACE]                Controller:    45 - Obtained command --> LoginCommand
+2018-01-22 17:23 [TRACE]              LoginCommand:    31 - Request parameter: loging --> login123
+2018-01-22 17:23 [TRACE]              LoginCommand:    46 - Set the session attribute: user --> User [id=10, roleId=1, login=login123, password=pass, name=Name, surname=Surname, city=City, number=380990091049, role=MANAGER]
+2018-01-22 17:23 [TRACE]              LoginCommand:    48 - Set the session attribute: role --> MANAGER
+2018-01-22 17:23 [ INFO]              LoginCommand:    49 - User User [id=10, roleId=1, login=login123, password=pass, name=Name, surname=Surname, city=City, number=380990091049, role=MANAGER] logged as manager
+2018-01-22 17:23 [DEBUG]              LoginCommand:    50 - Command finished
+2018-01-22 17:23 [TRACE]                Controller:    55 - Forward address --> /MainPage
+2018-01-22 17:23 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /MainPage
+2018-01-22 17:23 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:23 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 17:23 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 17:23 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 17:23 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 17:23 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:23 [TRACE]                Controller:    68 - Request parameter: command --> logout
+2018-01-22 17:23 [TRACE]                Controller:    72 - Obtained command --> LogoutCommand
+2018-01-22 17:23 [TRACE]                Controller:    83 - Forward address --> /MainPage
+2018-01-22 17:23 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /MainPage
+2018-01-22 17:41 [DEBUG]                Controller:    37 - Controller starts
+2018-01-22 17:41 [TRACE]                Controller:    41 - Request parameter: command --> login
+2018-01-22 17:41 [TRACE]                Controller:    45 - Obtained command --> LoginCommand
+2018-01-22 17:41 [TRACE]              LoginCommand:    31 - Request parameter: loging --> login123
+2018-01-22 17:41 [TRACE]              LoginCommand:    46 - Set the session attribute: user --> User [id=10, roleId=1, login=login123, password=pass, name=Name, surname=Surname, city=City, number=380990091049, role=MANAGER]
+2018-01-22 17:41 [TRACE]              LoginCommand:    48 - Set the session attribute: role --> MANAGER
+2018-01-22 17:41 [ INFO]              LoginCommand:    49 - User User [id=10, roleId=1, login=login123, password=pass, name=Name, surname=Surname, city=City, number=380990091049, role=MANAGER] logged as manager
+2018-01-22 17:41 [DEBUG]              LoginCommand:    50 - Command finished
+2018-01-22 17:41 [TRACE]                Controller:    55 - Forward address --> /MainPage
+2018-01-22 17:41 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /MainPage
+2018-01-22 17:41 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:41 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 17:41 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 17:41 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 17:41 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 17:41 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:41 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 17:41 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 17:41 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 17:41 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 17:41 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:41 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 17:41 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 17:41 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 17:41 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 17:48 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:48 [TRACE]                Controller:    68 - Request parameter: command --> logout
+2018-01-22 17:48 [TRACE]                Controller:    72 - Obtained command --> LogoutCommand
+2018-01-22 17:48 [TRACE]                Controller:    83 - Forward address --> /MainPage
+2018-01-22 17:48 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /MainPage
+2018-01-22 17:48 [DEBUG]                Controller:    37 - Controller starts
+2018-01-22 17:48 [TRACE]                Controller:    41 - Request parameter: command --> login
+2018-01-22 17:48 [TRACE]                Controller:    45 - Obtained command --> LoginCommand
+2018-01-22 17:48 [TRACE]              LoginCommand:    31 - Request parameter: loging --> monolit9951
+2018-01-22 17:48 [TRACE]              LoginCommand:    46 - Set the session attribute: user --> User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN]
+2018-01-22 17:48 [TRACE]              LoginCommand:    48 - Set the session attribute: role --> ADMIN
+2018-01-22 17:48 [ INFO]              LoginCommand:    49 - User User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN] logged as admin
+2018-01-22 17:48 [DEBUG]              LoginCommand:    50 - Command finished
+2018-01-22 17:48 [TRACE]                Controller:    55 - Forward address --> /MainPage
+2018-01-22 17:48 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /MainPage
+2018-01-22 17:48 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:48 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 17:48 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 17:48 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 17:48 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 17:49 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:49 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 17:49 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 17:49 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 17:49 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 17:49 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:49 [TRACE]                Controller:    68 - Request parameter: command --> orders_need_pay
+2018-01-22 17:49 [TRACE]                Controller:    72 - Obtained command --> OrderNeedPayCommand
+2018-01-22 17:49 [TRACE]       OrderNeedPayCommand:    31 - Here is orders -->[Order [userId=1, carId=3, id=4, days=3, price=240, statusId=3, withDriver=true, dateStart=2000-01-16, dateEnd=2000-01-18, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2018-01-18], Order [userId=1, carId=6, id=5, days=2, price=70, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-02], Order [userId=1, carId=2, id=6, days=2, price=360, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-01]]
+2018-01-22 17:49 [TRACE]                Controller:    83 - Forward address --> /view/orders/orders_need_pay.jsp
+2018-01-22 17:49 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/orders_need_pay.jsp
+2018-01-22 17:49 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:49 [TRACE]                Controller:    68 - Request parameter: command --> get_order
+2018-01-22 17:49 [TRACE]                Controller:    72 - Obtained command --> OrderGetCommand
+2018-01-22 17:49 [TRACE]                Controller:    83 - Forward address --> /view/orders/order.jsp
+2018-01-22 17:49 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order.jsp
+2018-01-22 17:53 [DEBUG]                Controller:    37 - Controller starts
+2018-01-22 17:53 [TRACE]                Controller:    41 - Request parameter: command --> login
+2018-01-22 17:53 [TRACE]                Controller:    45 - Obtained command --> LoginCommand
+2018-01-22 17:53 [TRACE]              LoginCommand:    31 - Request parameter: loging --> monolit9951
+2018-01-22 17:53 [TRACE]              LoginCommand:    46 - Set the session attribute: user --> User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN]
+2018-01-22 17:53 [TRACE]              LoginCommand:    48 - Set the session attribute: role --> ADMIN
+2018-01-22 17:53 [ INFO]              LoginCommand:    49 - User User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN] logged as admin
+2018-01-22 17:53 [DEBUG]              LoginCommand:    50 - Command finished
+2018-01-22 17:53 [TRACE]                Controller:    55 - Forward address --> /MainPage
+2018-01-22 17:53 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /MainPage
+2018-01-22 17:53 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:53 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 17:53 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 17:53 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 17:53 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 17:53 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:53 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 17:53 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 17:53 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 17:53 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 17:54 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:54 [TRACE]                Controller:    68 - Request parameter: command --> orders_need_pay
+2018-01-22 17:54 [TRACE]                Controller:    72 - Obtained command --> OrderNeedPayCommand
+2018-01-22 17:54 [TRACE]       OrderNeedPayCommand:    31 - Here is orders -->[Order [userId=1, carId=3, id=4, days=3, price=240, statusId=3, withDriver=true, dateStart=2000-01-16, dateEnd=2000-01-18, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2018-01-18], Order [userId=1, carId=6, id=5, days=2, price=70, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-02], Order [userId=1, carId=2, id=6, days=2, price=360, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-01]]
+2018-01-22 17:54 [TRACE]                Controller:    83 - Forward address --> /view/orders/orders_need_pay.jsp
+2018-01-22 17:54 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/orders_need_pay.jsp
+2018-01-22 17:54 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:54 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 17:54 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 17:54 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 17:54 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 17:54 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 17:54 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 17:54 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 17:54 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 17:54 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 18:00 [DEBUG]                Controller:    37 - Controller starts
+2018-01-22 18:00 [TRACE]                Controller:    41 - Request parameter: command --> login
+2018-01-22 18:00 [TRACE]                Controller:    45 - Obtained command --> LoginCommand
+2018-01-22 18:00 [TRACE]              LoginCommand:    31 - Request parameter: loging --> monolit9951
+2018-01-22 18:00 [TRACE]              LoginCommand:    46 - Set the session attribute: user --> User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN]
+2018-01-22 18:00 [TRACE]              LoginCommand:    48 - Set the session attribute: role --> ADMIN
+2018-01-22 18:00 [ INFO]              LoginCommand:    49 - User User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN] logged as admin
+2018-01-22 18:00 [DEBUG]              LoginCommand:    50 - Command finished
+2018-01-22 18:00 [TRACE]                Controller:    55 - Forward address --> /MainPage
+2018-01-22 18:00 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /MainPage
+2018-01-22 18:00 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:00 [TRACE]                Controller:    68 - Request parameter: command --> logout
+2018-01-22 18:00 [TRACE]                Controller:    72 - Obtained command --> LogoutCommand
+2018-01-22 18:00 [TRACE]                Controller:    83 - Forward address --> /MainPage
+2018-01-22 18:00 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /MainPage
+2018-01-22 18:01 [DEBUG]                Controller:    37 - Controller starts
+2018-01-22 18:01 [TRACE]                Controller:    41 - Request parameter: command --> login
+2018-01-22 18:01 [TRACE]                Controller:    45 - Obtained command --> LoginCommand
+2018-01-22 18:01 [TRACE]              LoginCommand:    31 - Request parameter: loging --> monolit9951
+2018-01-22 18:01 [TRACE]              LoginCommand:    46 - Set the session attribute: user --> User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN]
+2018-01-22 18:01 [TRACE]              LoginCommand:    48 - Set the session attribute: role --> ADMIN
+2018-01-22 18:01 [ INFO]              LoginCommand:    49 - User User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN] logged as admin
+2018-01-22 18:01 [DEBUG]              LoginCommand:    50 - Command finished
+2018-01-22 18:01 [TRACE]                Controller:    55 - Forward address --> /MainPage
+2018-01-22 18:01 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /MainPage
+2018-01-22 18:27 [DEBUG]                Controller:    37 - Controller starts
+2018-01-22 18:27 [TRACE]                Controller:    41 - Request parameter: command --> login
+2018-01-22 18:27 [TRACE]                Controller:    45 - Obtained command --> LoginCommand
+2018-01-22 18:27 [TRACE]              LoginCommand:    31 - Request parameter: loging --> monolit9951
+2018-01-22 18:28 [DEBUG]                Controller:    37 - Controller starts
+2018-01-22 18:28 [TRACE]                Controller:    41 - Request parameter: command --> login
+2018-01-22 18:28 [TRACE]                Controller:    45 - Obtained command --> LoginCommand
+2018-01-22 18:28 [TRACE]              LoginCommand:    31 - Request parameter: loging --> monolit9951
+2018-01-22 18:28 [TRACE]              LoginCommand:    46 - Set the session attribute: user --> User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN]
+2018-01-22 18:28 [TRACE]              LoginCommand:    48 - Set the session attribute: role --> ADMIN
+2018-01-22 18:28 [ INFO]              LoginCommand:    49 - User User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN] logged as admin
+2018-01-22 18:28 [DEBUG]              LoginCommand:    50 - Command finished
+2018-01-22 18:28 [TRACE]                Controller:    55 - Forward address --> /MainPage
+2018-01-22 18:28 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /MainPage
+2018-01-22 18:28 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:28 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 18:28 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 18:28 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 18:28 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 18:28 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:28 [TRACE]                Controller:    68 - Request parameter: command --> orders_need_pay
+2018-01-22 18:28 [TRACE]                Controller:    72 - Obtained command --> OrderNeedPayCommand
+2018-01-22 18:28 [TRACE]       OrderNeedPayCommand:    31 - Here is orders -->[Order [userId=1, carId=3, id=4, days=3, price=240, statusId=3, withDriver=true, dateStart=2000-01-16, dateEnd=2000-01-18, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2018-01-18], Order [userId=1, carId=6, id=5, days=2, price=70, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-02], Order [userId=1, carId=2, id=6, days=2, price=360, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-01]]
+2018-01-22 18:28 [TRACE]                Controller:    83 - Forward address --> /view/orders/orders_need_pay.jsp
+2018-01-22 18:28 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/orders_need_pay.jsp
+2018-01-22 18:28 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:28 [TRACE]                Controller:    68 - Request parameter: command --> get_order
+2018-01-22 18:28 [TRACE]                Controller:    72 - Obtained command --> OrderGetCommand
+2018-01-22 18:28 [TRACE]                Controller:    83 - Forward address --> /view/orders/order.jsp
+2018-01-22 18:28 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order.jsp
+2018-01-22 18:28 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:28 [TRACE]                Controller:    68 - Request parameter: command --> orders_need_pay
+2018-01-22 18:28 [TRACE]                Controller:    72 - Obtained command --> OrderNeedPayCommand
+2018-01-22 18:28 [TRACE]       OrderNeedPayCommand:    31 - Here is orders -->[Order [userId=1, carId=3, id=4, days=3, price=240, statusId=3, withDriver=true, dateStart=2000-01-16, dateEnd=2000-01-18, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2018-01-18], Order [userId=1, carId=6, id=5, days=2, price=70, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-02], Order [userId=1, carId=2, id=6, days=2, price=360, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-01]]
+2018-01-22 18:28 [TRACE]                Controller:    83 - Forward address --> /view/orders/orders_need_pay.jsp
+2018-01-22 18:28 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/orders_need_pay.jsp
+2018-01-22 18:28 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:28 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 18:28 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 18:28 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 18:28 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 18:28 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:28 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 18:28 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 18:28 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 18:28 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 18:41 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:41 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 18:41 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 18:41 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 18:41 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 18:41 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:41 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 18:41 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 18:41 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 18:41 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 18:41 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:41 [TRACE]                Controller:    68 - Request parameter: command --> make_order
+2018-01-22 18:41 [TRACE]                Controller:    72 - Obtained command --> MakeOrderCommand
+2018-01-22 18:41 [TRACE]          MakeOrderCommand:    34 - get a car -->Car [id=1, mark=Ford, model=Mondeo, autoClass=С, imageURL=ford_mondeo.jpg, body=Седан, engine=2.3, transmission=автомат, fuel=бензин, price=80]
+2018-01-22 18:41 [TRACE]                Controller:    83 - Forward address --> view/orders/make_order.jsp
+2018-01-22 18:41 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/orders/make_order.jsp
+2018-01-22 18:41 [DEBUG]                Controller:    37 - Controller starts
+2018-01-22 18:41 [TRACE]                Controller:    41 - Request parameter: command --> paste_order
+2018-01-22 18:41 [TRACE]                Controller:    45 - Obtained command --> PasteOrderCommand
+2018-01-22 18:41 [TRACE]         PasteOrderCommand:    32 - userRole --> ADMIN
+2018-01-22 18:41 [TRACE]         PasteOrderCommand:    46 - Request parameter: carId --> 1
+2018-01-22 18:41 [TRACE]         PasteOrderCommand:    47 - Request parameter: carPrice--> 80
+2018-01-22 18:41 [TRACE]         PasteOrderCommand:    55 - Request parameter: dateStart --> 2000-04-01
+2018-01-22 18:41 [TRACE]         PasteOrderCommand:    57 - Request parameter: dateEnd --> 2000-04-06
+2018-01-22 18:41 [TRACE]         PasteOrderCommand:    59 - Request parameter: dateBirth --> 2000-04-06
+2018-01-22 18:41 [TRACE]         PasteOrderCommand:    71 - Here is order : Order [userId=1, carId=1, id=0, days=6, price=480, statusId=3, withDriver=true, dateStart=2000-04-01, dateEnd=2000-04-06, name=ruslan, surname=bay, patronymic=adfkj, city=kharkov, sex=male, borningDate=2000-04-06]
+2018-01-22 18:41 [TRACE]                 DBManager:   357 - com.mysql.jdbc.JDBC42PreparedStatement@78920031: INSERT INTO orders(userId,statusId,carId,days,price,withDriver,dateStart,dateEnd,name,surname,patronymic,sex,city,borningDate) VALUES(1,3,1,6,480,1,'2000-04-01','2000-04-06','ruslan','bay','adfkj','male','kharkov','2000-04-06')
+2018-01-22 18:41 [TRACE]                Controller:    55 - Forward address --> /MainPage
+2018-01-22 18:41 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /MainPage
+2018-01-22 18:41 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:41 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 18:41 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 18:41 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 18:41 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 18:41 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:41 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 18:41 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 18:41 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 18:41 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 18:42 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:42 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 18:42 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 18:42 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 18:42 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 18:42 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:42 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 18:42 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 18:42 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 18:42 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 18:45 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:45 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 18:45 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 18:45 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 18:45 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 18:45 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:45 [TRACE]                Controller:    68 - Request parameter: command --> orders_need_pay
+2018-01-22 18:45 [TRACE]                Controller:    72 - Obtained command --> OrderNeedPayCommand
+2018-01-22 18:45 [TRACE]       OrderNeedPayCommand:    31 - Here is orders -->[Order [userId=1, carId=3, id=4, days=3, price=240, statusId=3, withDriver=true, dateStart=2000-01-16, dateEnd=2000-01-18, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2018-01-18], Order [userId=1, carId=6, id=5, days=2, price=70, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-02], Order [userId=1, carId=2, id=6, days=2, price=360, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-01], Order [userId=1, carId=1, id=7, days=6, price=480, statusId=3, withDriver=true, dateStart=2000-04-01, dateEnd=2000-04-06, name=ruslan, surname=bay, patronymic=adfkj, city=kharkov, sex=male, borningDate=2000-04-06]]
+2018-01-22 18:45 [TRACE]                Controller:    83 - Forward address --> /view/orders/orders_need_pay.jsp
+2018-01-22 18:45 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/orders_need_pay.jsp
+2018-01-22 18:45 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:45 [TRACE]                Controller:    68 - Request parameter: command --> get_order
+2018-01-22 18:45 [TRACE]                Controller:    72 - Obtained command --> OrderGetCommand
+2018-01-22 18:45 [TRACE]                Controller:    83 - Forward address --> /view/orders/order.jsp
+2018-01-22 18:45 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order.jsp
+2018-01-22 18:46 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:46 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 18:46 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 18:46 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 18:46 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 18:46 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:46 [TRACE]                Controller:    68 - Request parameter: command --> orders_need_pay
+2018-01-22 18:46 [TRACE]                Controller:    72 - Obtained command --> OrderNeedPayCommand
+2018-01-22 18:46 [TRACE]       OrderNeedPayCommand:    31 - Here is orders -->[Order [userId=1, carId=3, id=4, days=3, price=240, statusId=3, withDriver=true, dateStart=2000-01-16, dateEnd=2000-01-18, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2018-01-18], Order [userId=1, carId=6, id=5, days=2, price=70, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-02], Order [userId=1, carId=2, id=6, days=2, price=360, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-01], Order [userId=1, carId=1, id=7, days=6, price=480, statusId=3, withDriver=true, dateStart=2000-04-01, dateEnd=2000-04-06, name=ruslan, surname=bay, patronymic=adfkj, city=kharkov, sex=male, borningDate=2000-04-06]]
+2018-01-22 18:46 [TRACE]                Controller:    83 - Forward address --> /view/orders/orders_need_pay.jsp
+2018-01-22 18:46 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/orders_need_pay.jsp
+2018-01-22 18:46 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:46 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 18:46 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 18:46 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 18:46 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 18:46 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:46 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 18:46 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 18:46 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 18:46 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 18:46 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:46 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 18:46 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 18:46 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 18:46 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 18:58 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:58 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 18:58 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 18:58 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 18:58 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 18:58 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:58 [TRACE]                Controller:    68 - Request parameter: command --> orders_need_pay
+2018-01-22 18:58 [TRACE]                Controller:    72 - Obtained command --> OrderNeedPayCommand
+2018-01-22 18:58 [TRACE]       OrderNeedPayCommand:    31 - Here is orders -->[Order [userId=1, carId=3, id=4, days=3, price=240, statusId=3, withDriver=true, dateStart=2000-01-16, dateEnd=2000-01-18, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2018-01-18], Order [userId=1, carId=6, id=5, days=2, price=70, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-02], Order [userId=1, carId=2, id=6, days=2, price=360, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-01], Order [userId=1, carId=1, id=7, days=6, price=480, statusId=3, withDriver=true, dateStart=2000-04-01, dateEnd=2000-04-06, name=ruslan, surname=bay, patronymic=adfkj, city=kharkov, sex=male, borningDate=2000-04-06]]
+2018-01-22 18:58 [TRACE]                Controller:    83 - Forward address --> /view/orders/orders_need_pay.jsp
+2018-01-22 18:58 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/orders_need_pay.jsp
+2018-01-22 18:58 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:58 [TRACE]                Controller:    68 - Request parameter: command --> get_order
+2018-01-22 18:58 [TRACE]                Controller:    72 - Obtained command --> OrderGetCommand
+2018-01-22 18:58 [TRACE]                Controller:    83 - Forward address --> /view/orders/order.jsp
+2018-01-22 18:58 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order.jsp
+2018-01-22 18:58 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:58 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 18:58 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 18:58 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 18:58 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 18:58 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:58 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 18:58 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 18:58 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 18:58 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 18:58 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:58 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 18:58 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 18:58 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 18:58 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 18:59 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:59 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 18:59 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 18:59 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 18:59 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 18:59 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:59 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 18:59 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 18:59 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 18:59 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 18:59 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 18:59 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 18:59 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 18:59 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 18:59 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:00 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:00 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:00 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:00 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:00 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:00 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:00 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:00 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:00 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:00 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:00 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:00 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:00 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:00 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:00 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:04 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:04 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:04 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:04 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:04 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:04 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:04 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:04 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:04 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:04 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:04 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:04 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:04 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:04 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:04 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:05 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:05 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:05 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:05 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:05 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:05 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:05 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:05 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:05 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:05 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:05 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:05 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:05 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:05 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:05 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:05 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:05 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:05 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:05 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:05 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:05 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:05 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:05 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:05 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:05 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    37 - Controller starts
+2018-01-22 19:06 [TRACE]                Controller:    41 - Request parameter: command --> login
+2018-01-22 19:06 [TRACE]                Controller:    45 - Obtained command --> LoginCommand
+2018-01-22 19:06 [TRACE]              LoginCommand:    31 - Request parameter: loging --> monolit9951
+2018-01-22 19:06 [TRACE]              LoginCommand:    46 - Set the session attribute: user --> User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN]
+2018-01-22 19:06 [TRACE]              LoginCommand:    48 - Set the session attribute: role --> ADMIN
+2018-01-22 19:06 [ INFO]              LoginCommand:    49 - User User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN] logged as admin
+2018-01-22 19:06 [DEBUG]              LoginCommand:    50 - Command finished
+2018-01-22 19:06 [TRACE]                Controller:    55 - Forward address --> /MainPage
+2018-01-22 19:06 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /MainPage
+2018-01-22 19:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:06 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 19:06 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 19:06 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:06 [TRACE]                Controller:    68 - Request parameter: command --> orders_need_pay
+2018-01-22 19:06 [TRACE]                Controller:    72 - Obtained command --> OrderNeedPayCommand
+2018-01-22 19:06 [TRACE]       OrderNeedPayCommand:    31 - Here is orders -->[Order [userId=1, carId=3, id=4, days=3, price=240, statusId=3, withDriver=true, dateStart=2000-01-16, dateEnd=2000-01-18, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2018-01-18], Order [userId=1, carId=6, id=5, days=2, price=70, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-02], Order [userId=1, carId=2, id=6, days=2, price=360, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-01], Order [userId=1, carId=1, id=7, days=6, price=480, statusId=3, withDriver=true, dateStart=2000-04-01, dateEnd=2000-04-06, name=ruslan, surname=bay, patronymic=adfkj, city=kharkov, sex=male, borningDate=2000-04-06]]
+2018-01-22 19:06 [TRACE]                Controller:    83 - Forward address --> /view/orders/orders_need_pay.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/orders_need_pay.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:06 [TRACE]                Controller:    68 - Request parameter: command --> get_order
+2018-01-22 19:06 [TRACE]                Controller:    72 - Obtained command --> OrderGetCommand
+2018-01-22 19:06 [TRACE]                Controller:    83 - Forward address --> /view/orders/order.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:06 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:06 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:06 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:06 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:06 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:06 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:06 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:06 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:06 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:06 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:06 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:06 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:06 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:06 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:06 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:06 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:06 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:06 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:06 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:06 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:06 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:06 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:06 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:06 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:06 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:06 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:06 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:06 [TRACE]                Controller:    68 - Request parameter: command --> orders_need_pay
+2018-01-22 19:06 [TRACE]                Controller:    72 - Obtained command --> OrderNeedPayCommand
+2018-01-22 19:06 [TRACE]       OrderNeedPayCommand:    31 - Here is orders -->[Order [userId=1, carId=3, id=4, days=3, price=240, statusId=3, withDriver=true, dateStart=2000-01-16, dateEnd=2000-01-18, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2018-01-18], Order [userId=1, carId=6, id=5, days=2, price=70, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-02], Order [userId=1, carId=2, id=6, days=2, price=360, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-01], Order [userId=1, carId=1, id=7, days=6, price=480, statusId=3, withDriver=true, dateStart=2000-04-01, dateEnd=2000-04-06, name=ruslan, surname=bay, patronymic=adfkj, city=kharkov, sex=male, borningDate=2000-04-06]]
+2018-01-22 19:06 [TRACE]                Controller:    83 - Forward address --> /view/orders/orders_need_pay.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/orders_need_pay.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:06 [TRACE]                Controller:    68 - Request parameter: command --> get_order
+2018-01-22 19:06 [TRACE]                Controller:    72 - Obtained command --> OrderGetCommand
+2018-01-22 19:06 [TRACE]                Controller:    83 - Forward address --> /view/orders/order.jsp
+2018-01-22 19:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order.jsp
+2018-01-22 19:07 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:07 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:07 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:07 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:07 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:07 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:07 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:07 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:07 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:07 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:07 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:07 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:07 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:07 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:07 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:10 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:10 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:10 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:10 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:10 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:10 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:10 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:10 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:10 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:10 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:10 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:10 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:10 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:10 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:10 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:11 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:11 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:11 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:11 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:11 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:11 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:11 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:11 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:11 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:11 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:11 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:11 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:11 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:11 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:11 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:13 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:13 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 19:13 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 19:13 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 19:13 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 19:13 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:13 [TRACE]                Controller:    68 - Request parameter: command --> orders_need_pay
+2018-01-22 19:13 [TRACE]                Controller:    72 - Obtained command --> OrderNeedPayCommand
+2018-01-22 19:13 [TRACE]       OrderNeedPayCommand:    31 - Here is orders -->[Order [userId=1, carId=3, id=4, days=3, price=240, statusId=3, withDriver=true, dateStart=2000-01-16, dateEnd=2000-01-18, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2018-01-18], Order [userId=1, carId=6, id=5, days=2, price=70, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-02], Order [userId=1, carId=2, id=6, days=2, price=360, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-01], Order [userId=1, carId=1, id=7, days=6, price=480, statusId=3, withDriver=true, dateStart=2000-04-01, dateEnd=2000-04-06, name=ruslan, surname=bay, patronymic=adfkj, city=kharkov, sex=male, borningDate=2000-04-06]]
+2018-01-22 19:13 [TRACE]                Controller:    83 - Forward address --> /view/orders/orders_need_pay.jsp
+2018-01-22 19:13 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/orders_need_pay.jsp
+2018-01-22 19:13 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:13 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 19:13 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 19:13 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 19:13 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 19:13 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:13 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:13 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:13 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:13 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:13 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:13 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:13 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:13 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:13 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:13 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:13 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:13 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:13 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:13 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:16 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:16 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:16 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:16 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:16 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:16 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:16 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:16 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:16 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:16 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:16 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:16 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:16 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:16 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:16 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:21 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:21 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:21 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:21 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:21 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:21 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:21 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:21 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:21 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:21 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:21 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:21 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:21 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:21 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:21 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:24 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:24 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:24 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:24 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:24 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:24 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:24 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:24 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:24 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:24 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:24 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:24 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:24 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:24 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:24 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:25 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:25 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:25 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:25 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:25 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:25 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:25 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:25 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:25 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:25 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:25 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:25 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:25 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:25 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:25 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:25 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:25 [TRACE]                Controller:    68 - Request parameter: command --> logout
+2018-01-22 19:25 [TRACE]                Controller:    72 - Obtained command --> LogoutCommand
+2018-01-22 19:25 [TRACE]                Controller:    83 - Forward address --> /MainPage
+2018-01-22 19:25 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /MainPage
+2018-01-22 19:25 [DEBUG]                Controller:    37 - Controller starts
+2018-01-22 19:25 [TRACE]                Controller:    41 - Request parameter: command --> login
+2018-01-22 19:25 [TRACE]                Controller:    45 - Obtained command --> LoginCommand
+2018-01-22 19:25 [TRACE]              LoginCommand:    31 - Request parameter: loging --> monolit9951
+2018-01-22 19:25 [TRACE]              LoginCommand:    46 - Set the session attribute: user --> User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN]
+2018-01-22 19:25 [TRACE]              LoginCommand:    48 - Set the session attribute: role --> ADMIN
+2018-01-22 19:25 [ INFO]              LoginCommand:    49 - User User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN] logged as admin
+2018-01-22 19:25 [DEBUG]              LoginCommand:    50 - Command finished
+2018-01-22 19:25 [TRACE]                Controller:    55 - Forward address --> /MainPage
+2018-01-22 19:25 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /MainPage
+2018-01-22 19:25 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:25 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 19:25 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 19:25 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 19:25 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 19:26 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:26 [TRACE]                Controller:    68 - Request parameter: command --> admin_menu
+2018-01-22 19:26 [TRACE]                Controller:    72 - Obtained command --> AdminMenuCommand
+2018-01-22 19:26 [TRACE]                Controller:    83 - Forward address --> /view/admin/admin_menu.jsp
+2018-01-22 19:26 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/admin/admin_menu.jsp
+2018-01-22 19:26 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:26 [TRACE]                Controller:    68 - Request parameter: command --> admin_menu
+2018-01-22 19:26 [TRACE]                Controller:    72 - Obtained command --> AdminMenuCommand
+2018-01-22 19:26 [TRACE]                Controller:    83 - Forward address --> /view/admin/admin_menu.jsp
+2018-01-22 19:26 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/admin/admin_menu.jsp
+2018-01-22 19:26 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:26 [TRACE]                Controller:    68 - Request parameter: command --> admin_menu
+2018-01-22 19:26 [TRACE]                Controller:    72 - Obtained command --> AdminMenuCommand
+2018-01-22 19:26 [TRACE]                Controller:    83 - Forward address --> /view/admin/admin_menu.jsp
+2018-01-22 19:26 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/admin/admin_menu.jsp
+2018-01-22 19:26 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:26 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:26 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:26 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:26 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:26 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:26 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:26 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:26 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:26 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:26 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:26 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:26 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:26 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:26 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:38 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:38 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:38 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:38 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:38 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:38 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:38 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:38 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:38 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:38 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:38 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:38 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:38 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:38 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:38 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:39 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:39 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:39 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:39 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:39 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:39 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:39 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:39 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:39 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:39 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:39 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:39 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:39 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:39 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:39 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:40 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:40 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:40 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:40 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:40 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:40 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:40 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:40 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:40 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:40 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:40 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:40 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:40 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:40 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:40 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:40 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:40 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:40 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:40 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:40 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:40 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:40 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:40 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:40 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:40 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:40 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:40 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:40 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:40 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:40 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:41 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:41 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:41 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:41 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:41 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:41 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:41 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:41 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:41 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:41 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:41 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:41 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:41 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:41 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:41 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:43 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:43 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:43 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:43 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:43 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:43 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:43 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:43 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:43 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:43 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:43 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:43 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:43 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:43 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:43 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:43 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:43 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:43 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:43 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:43 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:43 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:43 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:43 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:43 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:43 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:43 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:43 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:43 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:43 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:43 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:44 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:44 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:44 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:44 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:44 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:44 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:44 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:44 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:44 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:44 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:44 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:44 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:44 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:44 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:44 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:45 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:45 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 19:45 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 19:45 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 19:45 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 19:45 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:45 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:45 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:45 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:45 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:45 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:45 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:45 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:45 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:45 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:45 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:45 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:45 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:45 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:45 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:45 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:45 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:45 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:45 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:45 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:46 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:46 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:46 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:46 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:46 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:46 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:46 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:46 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:46 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:46 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:46 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:46 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:46 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:46 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:46 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 19:48 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:48 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 19:48 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 19:48 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 19:48 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 19:48 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:48 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 19:48 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 19:48 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 19:48 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 19:48 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 19:48 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 19:48 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 19:48 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 19:48 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 20:05 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:05 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 20:05 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 20:05 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 20:05 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 20:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:06 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 20:06 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 20:06 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 20:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 20:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:06 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 20:06 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 20:06 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 20:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 20:07 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:07 [TRACE]                Controller:    68 - Request parameter: command --> orders_need_pay
+2018-01-22 20:07 [TRACE]                Controller:    72 - Obtained command --> OrderNeedPayCommand
+2018-01-22 20:07 [TRACE]       OrderNeedPayCommand:    31 - Here is orders -->[Order [userId=1, carId=3, id=4, days=3, price=240, statusId=3, withDriver=true, dateStart=2000-01-16, dateEnd=2000-01-18, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2018-01-18], Order [userId=1, carId=6, id=5, days=2, price=70, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-02], Order [userId=1, carId=2, id=6, days=2, price=360, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-01], Order [userId=1, carId=1, id=7, days=6, price=480, statusId=3, withDriver=true, dateStart=2000-04-01, dateEnd=2000-04-06, name=ruslan, surname=bay, patronymic=adfkj, city=kharkov, sex=male, borningDate=2000-04-06]]
+2018-01-22 20:07 [TRACE]                Controller:    83 - Forward address --> /view/orders/orders_need_pay.jsp
+2018-01-22 20:07 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/orders_need_pay.jsp
+2018-01-22 20:07 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:07 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 20:07 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 20:07 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 20:07 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 20:07 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:07 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 20:07 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 20:07 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 20:07 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 20:07 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:07 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:07 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:07 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:07 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:07 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:07 [TRACE]                Controller:    68 - Request parameter: command --> make_order
+2018-01-22 20:07 [TRACE]                Controller:    72 - Obtained command --> MakeOrderCommand
+2018-01-22 20:07 [TRACE]          MakeOrderCommand:    34 - get a car -->Car [id=2, mark=Toyota, model=Land Cruiser Prado, autoClass=J, imageURL=toyota_landcruiser.jpg, body=Хэтчбэк, engine=4.2, transmission=автомат, fuel=бензин, price=180]
+2018-01-22 20:07 [TRACE]                Controller:    83 - Forward address --> view/orders/make_order.jsp
+2018-01-22 20:07 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/orders/make_order.jsp
+2018-01-22 20:07 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:07 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 20:07 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 20:07 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 20:07 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 20:07 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:07 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 20:07 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 20:07 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 20:07 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 20:09 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:09 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 20:09 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 20:09 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 20:09 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 20:09 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:09 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:09 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:09 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:09 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:09 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:09 [TRACE]                Controller:    68 - Request parameter: command --> make_order
+2018-01-22 20:09 [TRACE]                Controller:    72 - Obtained command --> MakeOrderCommand
+2018-01-22 20:09 [TRACE]          MakeOrderCommand:    34 - get a car -->Car [id=2, mark=Toyota, model=Land Cruiser Prado, autoClass=J, imageURL=toyota_landcruiser.jpg, body=Хэтчбэк, engine=4.2, transmission=автомат, fuel=бензин, price=180]
+2018-01-22 20:09 [TRACE]                Controller:    83 - Forward address --> view/orders/make_order.jsp
+2018-01-22 20:09 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/orders/make_order.jsp
+2018-01-22 20:11 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:11 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 20:11 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 20:11 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 20:11 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 20:11 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:11 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:11 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:11 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:11 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:11 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:11 [TRACE]                Controller:    68 - Request parameter: command --> make_order
+2018-01-22 20:11 [TRACE]                Controller:    72 - Obtained command --> MakeOrderCommand
+2018-01-22 20:11 [TRACE]          MakeOrderCommand:    34 - get a car -->Car [id=3, mark=Toyota, model=Camry 40, autoClass=D, imageURL=toyota_camry.jpg, body=Седан, engine=2.4, transmission=автомат, fuel=бензин, price=80]
+2018-01-22 20:11 [TRACE]                Controller:    83 - Forward address --> view/orders/make_order.jsp
+2018-01-22 20:11 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/orders/make_order.jsp
+2018-01-22 20:11 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:11 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 20:11 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 20:11 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 20:11 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 20:11 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:11 [TRACE]                Controller:    68 - Request parameter: command --> order_menu
+2018-01-22 20:11 [TRACE]                Controller:    72 - Obtained command --> OrderMenuCommand
+2018-01-22 20:11 [TRACE]                Controller:    83 - Forward address --> /view/orders/order_menu.jsp
+2018-01-22 20:11 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order_menu.jsp
+2018-01-22 20:11 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:11 [TRACE]                Controller:    68 - Request parameter: command --> orders_need_pay
+2018-01-22 20:11 [TRACE]                Controller:    72 - Obtained command --> OrderNeedPayCommand
+2018-01-22 20:11 [TRACE]       OrderNeedPayCommand:    31 - Here is orders -->[Order [userId=1, carId=3, id=4, days=3, price=240, statusId=3, withDriver=true, dateStart=2000-01-16, dateEnd=2000-01-18, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2018-01-18], Order [userId=1, carId=6, id=5, days=2, price=70, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-02], Order [userId=1, carId=2, id=6, days=2, price=360, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-01], Order [userId=1, carId=1, id=7, days=6, price=480, statusId=3, withDriver=true, dateStart=2000-04-01, dateEnd=2000-04-06, name=ruslan, surname=bay, patronymic=adfkj, city=kharkov, sex=male, borningDate=2000-04-06]]
+2018-01-22 20:11 [TRACE]                Controller:    83 - Forward address --> /view/orders/orders_need_pay.jsp
+2018-01-22 20:11 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/orders_need_pay.jsp
+2018-01-22 20:11 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:11 [TRACE]                Controller:    68 - Request parameter: command --> get_order
+2018-01-22 20:11 [TRACE]                Controller:    72 - Obtained command --> OrderGetCommand
+2018-01-22 20:11 [TRACE]                Controller:    83 - Forward address --> /view/orders/order.jsp
+2018-01-22 20:11 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/order.jsp
+2018-01-22 20:11 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:11 [TRACE]                Controller:    68 - Request parameter: command --> orders_need_pay
+2018-01-22 20:11 [TRACE]                Controller:    72 - Obtained command --> OrderNeedPayCommand
+2018-01-22 20:11 [TRACE]       OrderNeedPayCommand:    31 - Here is orders -->[Order [userId=1, carId=3, id=4, days=3, price=240, statusId=3, withDriver=true, dateStart=2000-01-16, dateEnd=2000-01-18, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2018-01-18], Order [userId=1, carId=6, id=5, days=2, price=70, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-02], Order [userId=1, carId=2, id=6, days=2, price=360, statusId=3, withDriver=true, dateStart=2000-03-01, dateEnd=2000-03-02, name=ruslan, surname=bay, patronymic=alexandro, city=kharkov, sex=male, borningDate=2000-03-01], Order [userId=1, carId=1, id=7, days=6, price=480, statusId=3, withDriver=true, dateStart=2000-04-01, dateEnd=2000-04-06, name=ruslan, surname=bay, patronymic=adfkj, city=kharkov, sex=male, borningDate=2000-04-06]]
+2018-01-22 20:11 [TRACE]                Controller:    83 - Forward address --> /view/orders/orders_need_pay.jsp
+2018-01-22 20:11 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/orders/orders_need_pay.jsp
+2018-01-22 20:11 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:11 [TRACE]                Controller:    68 - Request parameter: command --> manager_menu
+2018-01-22 20:11 [TRACE]                Controller:    72 - Obtained command --> ManagerMenuCommand
+2018-01-22 20:11 [TRACE]                Controller:    83 - Forward address --> /view/manager/manager_menu.jsp
+2018-01-22 20:11 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/manager_menu.jsp
+2018-01-22 20:11 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:11 [TRACE]                Controller:    68 - Request parameter: command --> orders_edit
+2018-01-22 20:11 [TRACE]                Controller:    72 - Obtained command --> ManagerOrdersEditCommand
+2018-01-22 20:11 [TRACE]                Controller:    83 - Forward address --> /view/manager/orders_edit.jsp
+2018-01-22 20:11 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/orders_edit.jsp
+2018-01-22 20:11 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:11 [TRACE]                Controller:    68 - Request parameter: command --> order_edit
+2018-01-22 20:11 [TRACE]                Controller:    72 - Obtained command --> ManagerOrderEditCommand
+2018-01-22 20:11 [TRACE]                Controller:    83 - Forward address --> /view/manager/order_edit.jsp
+2018-01-22 20:11 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/manager/order_edit.jsp
+2018-01-22 20:12 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:12 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 20:12 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 20:12 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 20:12 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 20:12 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:12 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:12 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:12 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:12 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:12 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:12 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 20:12 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 20:12 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 20:12 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 20:12 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:12 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:12 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:12 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:12 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:12 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:12 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:12 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:12 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:12 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:12 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:12 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:12 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:12 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:12 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:12 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:12 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:12 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:12 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:12 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:12 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:12 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:12 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:12 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:12 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:13 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:13 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:13 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:13 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:13 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:13 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:13 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:13 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:13 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:13 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:13 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:13 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:13 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:13 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:13 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:13 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:13 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:13 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:13 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:13 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:14 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:14 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 20:14 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 20:14 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 20:14 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 20:14 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:14 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:14 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:14 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:14 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:14 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:14 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:14 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:14 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:14 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:14 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:14 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:14 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:14 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:14 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:15 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:15 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:15 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:15 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:15 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:15 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:15 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 20:15 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 20:15 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 20:15 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 20:15 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:15 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:15 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:15 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:15 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:15 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:15 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 20:15 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 20:15 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 20:15 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 20:15 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:15 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:15 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:15 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:15 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:16 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:16 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 20:16 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 20:16 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 20:16 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 20:16 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:16 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:16 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:16 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:16 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:16 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:16 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:16 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:16 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:16 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:16 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:16 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:16 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:16 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:16 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:16 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:16 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:16 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:16 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:16 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:16 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:16 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:16 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:16 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:16 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:16 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:16 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 20:16 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 20:16 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 20:16 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 20:17 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:17 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:17 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:17 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:17 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:17 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:17 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 20:17 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 20:17 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 20:17 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:26 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:26 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:26 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:26 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 20:26 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 20:26 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:26 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:26 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:26 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:26 [TRACE]                Controller:    68 - Request parameter: command --> admin_menu
+2018-01-22 20:26 [TRACE]                Controller:    72 - Obtained command --> AdminMenuCommand
+2018-01-22 20:26 [TRACE]                Controller:    83 - Forward address --> /view/admin/admin_menu.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/admin/admin_menu.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:26 [TRACE]                Controller:    68 - Request parameter: command --> admin_user_edit
+2018-01-22 20:26 [TRACE]                Controller:    72 - Obtained command --> EditUserCommand
+2018-01-22 20:26 [TRACE]                Controller:    83 - Forward address --> view/admin/admin_user_edit.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/admin/admin_user_edit.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:26 [TRACE]                Controller:    68 - Request parameter: command --> admin_user_get
+2018-01-22 20:26 [TRACE]                Controller:    72 - Obtained command --> GetUserCommand
+2018-01-22 20:26 [TRACE]                Controller:    83 - Forward address --> view/admin/admin_user_edit.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/admin/admin_user_edit.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:26 [TRACE]                Controller:    68 - Request parameter: command --> admin_user_get
+2018-01-22 20:26 [TRACE]                Controller:    72 - Obtained command --> GetUserCommand
+2018-01-22 20:26 [TRACE]                Controller:    83 - Forward address --> view/admin/admin_user_edit.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/admin/admin_user_edit.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:26 [TRACE]                Controller:    68 - Request parameter: command --> admin_change_role
+2018-01-22 20:26 [TRACE]                Controller:    72 - Obtained command --> ChangeRoleCommand
+2018-01-22 20:26 [TRACE]                Controller:    83 - Forward address --> view/admin/admin_user_edit.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/admin/admin_user_edit.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:26 [TRACE]                Controller:    68 - Request parameter: command --> admin_user_edit
+2018-01-22 20:26 [TRACE]                Controller:    72 - Obtained command --> EditUserCommand
+2018-01-22 20:26 [TRACE]                Controller:    83 - Forward address --> view/admin/admin_user_edit.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/admin/admin_user_edit.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:26 [TRACE]                Controller:    68 - Request parameter: command --> admin_menu
+2018-01-22 20:26 [TRACE]                Controller:    72 - Obtained command --> AdminMenuCommand
+2018-01-22 20:26 [TRACE]                Controller:    83 - Forward address --> /view/admin/admin_menu.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/admin/admin_menu.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:26 [TRACE]                Controller:    68 - Request parameter: command --> admin_menu
+2018-01-22 20:26 [TRACE]                Controller:    72 - Obtained command --> AdminMenuCommand
+2018-01-22 20:26 [TRACE]                Controller:    83 - Forward address --> /view/admin/admin_menu.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/admin/admin_menu.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:26 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 20:26 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 20:26 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 20:26 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 20:27 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:27 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:27 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:27 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:27 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:30 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:30 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 20:30 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 20:30 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 20:30 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 20:31 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:31 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:31 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:31 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:31 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:31 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:31 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 20:31 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 20:31 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 20:31 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 20:31 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:31 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:31 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:31 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:31 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:34 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:34 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 20:34 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 20:34 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 20:34 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 20:34 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:34 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:34 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:34 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:34 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:34 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:34 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 20:34 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 20:34 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 20:34 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 20:34 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:34 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:34 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:34 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:34 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:35 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:35 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 20:35 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 20:35 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 20:35 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 20:35 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:35 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 20:35 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 20:35 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 20:35 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 20:35 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:35 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-22 20:35 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-22 20:35 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-22 20:35 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-22 20:35 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:35 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:35 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:35 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:35 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:35 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:35 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:35 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:35 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:35 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:35 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:35 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:35 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:35 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:35 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:35 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:35 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:35 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:35 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:35 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-22 20:35 [DEBUG]                Controller:    64 - Controller starts
+2018-01-22 20:35 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-22 20:35 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-22 20:35 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-22 20:35 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp

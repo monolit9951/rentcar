@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Регистрация нового пользователя</title>
+<link rel="stylesheet" href="../css/style.css" type="text/css">
+<link rel="stylesheet" href="../css/test.css" type="text/css">
+</head>
+<body>
+	<h1>
+		<center>Регистрация</center>
+	</h1>
+	<form action="../Controller" method="POST" class="form_action">
+		<table>
+			<tr>
+				<td>Имя</td>
+				<td><input name="name" type="text"></td>
+			</tr>
+			<tr>
+				<td>Фамилия</td>
+				<td><input name="surname" type="text"></td>
+			</tr>
+			<tr>
+				<td>Город</td>
+				<td><input name="city" type="text"></td>
+			</tr>
+			<tr>
+				<td>Номер телефона</td>
+				<td><input name="number" type="number"
+					placeholder="Укр. формат (380)"></td>
+			</tr>
+
+			<tr>
+				<td>Логин</td>
+				<td><input name="login" type="text"></td>
+			</tr>
+
+			<tr>
+				<td>Ваш пароль</td>
+				<td><input name="password" type="password"></td>
+			</tr>
+			<tr>
+				<td>Повторите пароль</td>
+				<td><input name="password2" type="password"></td>
+			</tr>
+		</table>
+		<input type="hidden" name="command" value="reg"> <input
+			type="button" onclick="validate(this.form)"
+			value="Зарегистрироваться">
+	</form>
+	<script type="text/javascript" src="../js/reg_validate.js">
+		
+	</script>
+
+</body>
+</html>

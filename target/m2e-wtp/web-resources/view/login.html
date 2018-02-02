@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Login</title>
+<link rel="stylesheet" href="../css/style.css" type="text/css">
+</head>
+<body>
+	<br>
+	<div class="login">
+		<h1>Добро пожаловать!</h1>
+		<form method="post" action="../Controller">
+			<input type="text" name="login" placeholder="Login"
+				required="required" /><br> <input type="password"
+				name="password" placeholder="Password" required="required" /><br>
+			<button type="submit" class="btn btn-primary btn-block btn-large">Вход</button>
+			<input type="hidden" name="command" value="login">
+		</form>
+		<h3>
+			<a href="reg.html">
+				<center>Регистрация</center>
+			</a>
+		</h3>
+	</div>
+
+
+</body>
+</html>

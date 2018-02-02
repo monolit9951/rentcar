@@ -1,0 +1,58 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ include file="/view/directive/page.jspf"%>
+<%@ include file="/view/directive/taglib.jspf"%>
+<%--=========================================================================== 
+find user(bottom)
+===========================================================================--%>
+<c:if test="${findUser!=null && findUser!=''}">
+	<table>
+		<tr>
+			<td>id:${findUser.getId()}
+			<td>login:${findUser.getLogin()}
+			<td>password: ${findUser.getPassword()}
+			<td>role id: ${findUser.getRoleId()}
+		</tr>
+		<tr>
+			<td>${findUser.getName()}
+			<td>${findUser.getSurname()}
+			<td>${findUser.getCity()}
+			<td>${findUser.getNumber()}
+		</tr>
+		<tr>
+			<td>
+				<form action="${pageContext.servletContext.contextPath}/Controller"
+					method="get">
+					<input type="hidden" name="command" value="admin_change_role">
+					<input type="hidden" name="id" value="${findUser.getId()}">
+					<select name="roleId">
+						<option value="1">Manager</option>
+						<option value="0">Admin</option>
+						<option value="2">User</option>
+					</select> <input type="submit" value="edit">
+
+				</form>
+			</td>
+			<td>
+				<form action="${pageContext.servletContext.contextPath}/Controller"
+					method="get">
+					<input type="hidden" name="command" value="admin_change_lock">
+					<input type="hidden" name="id" value="${findUser.getId()}">
+					<input type="submit" name="lock" value="unlock"> <br>
+
+				</form>
+			<td>
+				<form action="${pageContext.servletContext.contextPath}/Controller"
+					method="get">
+					<input type="hidden" name="command" value="admin_change_lock">
+					<input type="hidden" name="id" value="${findUser.getId()}">
+					<input type="submit" name="lock" value="lock">
+
+				</form>
+			<td><a
+				href="${pageContext.servletContext.contextPath}/Controller?command=admin_delete_user&id=${findUser.getId()}"><img
+					src="${pageContext.servletContext.contextPath}/img/button.jpg"
+					width="60" height="60"></a>
+		</tr>
+	</table>
+</c:if>

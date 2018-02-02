@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+.form {
+	width: 260px;
+	height: 320px;
+	position: relative;
+}
+
+.form_action {
+	border: 1px solid #D9DEDF;
+	margin: 20px 0 10px 20px;
+	padding: 20px 150px 0 20px;
+	line-height: 30px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+

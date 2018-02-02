@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Login</title>
+<link rel="stylesheet" href="../css/style.css" type="text/css">
+<body>
+	<div class="login-page">
+		<div class="form">
+			<form method="post" class="login-form" action="../Controller">
+				<input type="text" placeholder="login" name="login" /> <input
+					type="password" placeholder="password" name="password" />
+				<button>login</button>
+				<p class="message">
+					Не зарегистрирован? <a href="reg.html">Создать аккаунт</a>
+				</p>
+				<input type="hidden" name="command" value="login">
+			</form>
+		</div>
+	</div>
+</body>
+</html>

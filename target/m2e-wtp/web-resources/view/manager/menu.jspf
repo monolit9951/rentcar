@@ -1,0 +1,19 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%--=========================================================================== 
+order menu (bottom area). 
+===========================================================================--%>
+
+<nav class="dws-menu">
+	<ul>
+		<li><a
+			href="${pageContext.servletContext.contextPath}/Controller?command=orders_edit">Список
+				заказов</a></li>
+		<li><a
+			href="${pageContext.servletContext.contextPath}/Controller?command=orders_confirmed">Возрат
+				автомобилей</a></li>
+		<li><a href="${pageContext.servletContext.contextPath}/MainPage">Главное
+				меню</a></li>
+	</ul>
+</nav>

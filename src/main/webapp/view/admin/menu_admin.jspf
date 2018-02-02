@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ include file="/view/directive/page.jspf"%>
+<%@ include file="/view/directive/taglib.jspf"%>
+
+<%--=========================================================================== 
+admin menu (bottom area). 
+===========================================================================--%>
+
+<nav class="dws-menu">
+	<ul>
+		<li><a
+			href="${pageContext.servletContext.contextPath}/Controller?command=admin_user_edit"><i
+				class="fa fa-bars"></i> <fmt:message key="admin_users_edit" /></a></li>
+		<li><a
+			href="${pageContext.servletContext.contextPath}/Controller?command=auto_redactor"><i
+				class="fa fa-bars"></i> <fmt:message key="admin_cars_edit" /></a></li>
+		<li><a href="${pageContext.servletContext.contextPath}/MainPage"><i
+				class="fa fa-bars"></i> <fmt:message key="main_menu" /></a></li>
+	</ul>
+</nav>
+<%@ include file="/view/directive/message.jspf"%>

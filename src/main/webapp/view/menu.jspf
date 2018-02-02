@@ -1,0 +1,62 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ include file="/view/directive/page.jspf"%>
+<%@ include file="/view/directive/taglib.jspf"%>
+<%--=========================================================================== 
+menu (bottom area). 
+===========================================================================--%>
+
+<nav class="dws-menu">
+	<ul>
+		<li><a
+			href="${pageContext.servletContext.contextPath}/Controller?command=car_list"><i
+				class="fa fa fa-car"></i> <fmt:message
+					key="main_menu_rentcar" /></a>
+		<li><c:if
+				test="${sessionScope.role=='USER'||sessionScope.role=='MANAGER'|| sessionScope.role=='ADMIN'}">
+				<a
+					href="${pageContext.servletContext.contextPath}/Controller?command=orders_wait"><i
+					class="fa fa-th-list"></i> <fmt:message key="main_menu_orders" /></a>
+			</c:if> <c:if test="${empty role}">
+				<a href="view/reg.html"><i class="fa fa-th-list"></i> <fmt:message
+						key="main_menu_orders" /></a>
+			</c:if></li>
+
+		<c:if
+			test="${sessionScope.role=='USER'||sessionScope.role=='MANAGER'|| sessionScope.role=='ADMIN'}">
+			<li><a
+				href="${pageContext.servletContext.contextPath}/Controller?command=my_accounts_not_payed"><i
+					class="fa fa-university"></i> <fmt:message key="main_menu_accounts" /></a></li>
+		</c:if>
+		<c:if
+			test="${sessionScope.role=='MANAGER'|| sessionScope.role=='ADMIN'}">
+			<li><a
+				href="${pageContext.servletContext.contextPath}/Controller?command=orders_edit"><i
+					class="fa fa-user-circle"></i> <fmt:message key="main_menu_manager" /></a></li>
+		</c:if>
+		<c:if test="${sessionScope.role=='ADMIN'}">
+			<li><a
+				href="${pageContext.servletContext.contextPath}/Controller?command=admin_user_edit"><i
+					class="fa fa-user-circle-o"></i> <fmt:message key="main_menu_admin" /></a></li>
+		</c:if>
+	</ul>
+</nav>
+<h2 align="center">
+	<c:choose>
+		<c:when
+			test="${sessionScope.role=='MANAGER'|| sessionScope.role=='ADMIN' || sessionScope.role=='USER'}">
+			<a
+				href="${pageContext.servletContext.contextPath}/Controller?command=logout">
+				<fmt:message key="exit" />
+			</a>
+		</c:when>
+		<c:otherwise>
+			<a href="${pageContext.servletContext.contextPath}/view/login.html"><fmt:message
+					key="login" /></a>
+			<br>
+			<a href="${pageContext.servletContext.contextPath}/view/reg.html"><fmt:message
+					key="register" /></a>
+		</c:otherwise>
+	</c:choose>
+</h2>
+<%@ include file="/view/directive/message.jspf"%>

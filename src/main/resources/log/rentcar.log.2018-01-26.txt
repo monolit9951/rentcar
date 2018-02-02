@@ -1,0 +1,1088 @@
+2018-01-26 00:55 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 00:55 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 00:55 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 00:55 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 00:55 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 00:55 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 00:55 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 00:55 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 00:55 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 00:55 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 00:55 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 00:55 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 00:55 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 00:55 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 00:55 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 00:58 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 00:58 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 00:58 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 00:58 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 00:58 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 00:58 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 00:58 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 00:58 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 00:58 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 00:58 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 00:58 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 00:58 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 00:58 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 00:58 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 00:58 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:03 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:03 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:03 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:03 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:03 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:04 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:04 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:04 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:04 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:04 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:07 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:07 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:07 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:07 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:07 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:09 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:09 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:09 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:09 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:09 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:09 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:09 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:09 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:09 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:09 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:09 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:09 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:09 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:09 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:09 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:09 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:09 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:09 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:09 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:09 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:10 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:10 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:10 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:10 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:10 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:11 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:11 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:11 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:11 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:11 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:11 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:11 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:11 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:11 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:11 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:12 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:12 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:12 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:12 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:12 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:13 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:13 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:13 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:13 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:13 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:14 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:14 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:14 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:14 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:14 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:15 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:15 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:15 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:15 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:15 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:15 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:15 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:15 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:15 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:15 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:18 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:18 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:18 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:18 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:18 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:24 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:24 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:24 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:24 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:24 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:27 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:27 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:27 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:27 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:27 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:27 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:27 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:27 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:27 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:27 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:27 [DEBUG]                Controller:    37 - Controller starts
+2018-01-26 01:27 [TRACE]                Controller:    41 - Request parameter: command --> car_list
+2018-01-26 01:27 [TRACE]                Controller:    45 - Obtained command --> CarListCommand
+2018-01-26 01:27 [TRACE]                Controller:    55 - Forward address --> /view/car_list.jsp
+2018-01-26 01:27 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /view/car_list.jsp
+2018-01-26 01:40 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:40 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:40 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:40 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:40 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:41 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:41 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:41 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:41 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:41 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:43 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:43 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:43 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:43 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:43 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:44 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:44 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:44 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:44 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:44 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:45 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:45 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:45 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:45 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:45 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:45 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:45 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:45 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:45 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:45 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:46 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:46 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:46 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:46 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:46 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:46 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:46 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:46 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:46 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:46 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:47 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:47 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:47 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:47 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:47 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:47 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:47 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:47 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:47 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:47 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:48 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:48 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:48 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:48 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:48 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:48 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:48 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:48 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:48 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:48 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:49 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:49 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:49 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:49 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:49 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:49 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:49 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:49 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:49 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:49 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:49 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:49 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:49 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:49 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:49 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:49 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:49 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:49 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:49 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:49 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:50 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:50 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:50 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:50 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:50 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:50 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:50 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:50 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:50 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:50 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:50 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:50 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:50 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:50 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:50 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:53 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:53 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:53 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:53 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:53 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:53 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:53 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:53 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:53 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:53 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:53 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:53 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:53 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:53 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:53 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:53 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:53 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:53 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:53 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:53 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:54 [DEBUG]                Controller:    37 - Controller starts
+2018-01-26 01:54 [TRACE]                Controller:    41 - Request parameter: command --> login
+2018-01-26 01:54 [TRACE]                Controller:    45 - Obtained command --> LoginCommand
+2018-01-26 01:54 [TRACE]              LoginCommand:    31 - Request parameter: loging --> monolit9951
+2018-01-26 01:54 [TRACE]              LoginCommand:    46 - Set the session attribute: user --> User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN]
+2018-01-26 01:54 [TRACE]              LoginCommand:    48 - Set the session attribute: role --> ADMIN
+2018-01-26 01:54 [ INFO]              LoginCommand:    49 - User User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN] logged as admin
+2018-01-26 01:54 [DEBUG]              LoginCommand:    50 - Command finished
+2018-01-26 01:54 [TRACE]                Controller:    55 - Forward address --> /MainPage
+2018-01-26 01:54 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /MainPage
+2018-01-26 01:54 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:54 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:54 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:54 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:54 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 01:54 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 01:54 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 01:54 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 01:54 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 01:54 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 15:03 [DEBUG]                Controller:    37 - Controller starts
+2018-01-26 15:03 [TRACE]                Controller:    41 - Request parameter: command --> login
+2018-01-26 15:03 [TRACE]                Controller:    45 - Obtained command --> LoginCommand
+2018-01-26 15:03 [TRACE]              LoginCommand:    31 - Request parameter: loging --> monolit9951
+2018-01-26 15:03 [TRACE]              LoginCommand:    46 - Set the session attribute: user --> User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN]
+2018-01-26 15:03 [TRACE]              LoginCommand:    48 - Set the session attribute: role --> ADMIN
+2018-01-26 15:03 [ INFO]              LoginCommand:    49 - User User [id=1, roleId=0, login=monolit9951, password=monolit, name=ruslan, surname=bay, city=kharkov, number=380990091048, role=ADMIN] logged as admin
+2018-01-26 15:03 [DEBUG]              LoginCommand:    50 - Command finished
+2018-01-26 15:03 [TRACE]                Controller:    55 - Forward address --> /MainPage
+2018-01-26 15:03 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /MainPage
+2018-01-26 15:03 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 15:03 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 15:03 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 15:03 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 15:03 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:09 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:09 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:09 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:09 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:09 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:09 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:09 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:09 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:09 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:09 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:09 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:09 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:09 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:09 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:09 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:09 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:09 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:09 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:09 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:09 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:09 [DEBUG]                Controller:    37 - Controller starts
+2018-01-26 19:09 [TRACE]                Controller:    41 - Request parameter: command --> car_list_clear
+2018-01-26 19:09 [TRACE]                Controller:    45 - Obtained command --> CarListClearCommand
+2018-01-26 19:09 [TRACE]                Controller:    55 - Forward address --> /Controller?command=car_list
+2018-01-26 19:09 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /Controller?command=car_list
+2018-01-26 19:09 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:09 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:09 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:09 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:09 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:10 [DEBUG]                Controller:    37 - Controller starts
+2018-01-26 19:10 [TRACE]                Controller:    41 - Request parameter: command --> car_list_clear
+2018-01-26 19:10 [TRACE]                Controller:    45 - Obtained command --> CarListClearCommand
+2018-01-26 19:10 [TRACE]                Controller:    55 - Forward address --> /Controller?command=car_list
+2018-01-26 19:10 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /Controller?command=car_list
+2018-01-26 19:10 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:10 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:10 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:10 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:10 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:10 [DEBUG]                Controller:    37 - Controller starts
+2018-01-26 19:10 [TRACE]                Controller:    41 - Request parameter: command --> car_list_clear
+2018-01-26 19:10 [TRACE]                Controller:    45 - Obtained command --> CarListClearCommand
+2018-01-26 19:10 [TRACE]                Controller:    55 - Forward address --> /Controller?command=car_list
+2018-01-26 19:10 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /Controller?command=car_list
+2018-01-26 19:10 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:10 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:10 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:10 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:10 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:24 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:24 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:24 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:24 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:24 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:25 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:25 [TRACE]                Controller:    68 - Request parameter: command --> null
+2018-01-26 19:25 [TRACE]                Controller:    72 - Obtained command --> null
+2018-01-26 19:26 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:26 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:26 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:26 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:26 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:26 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:26 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:26 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:26 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:26 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:26 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:26 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:26 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:26 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:26 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:27 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:27 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:27 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:27 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:27 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:27 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:27 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:27 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:27 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:27 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:27 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:27 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:27 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:27 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:27 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:27 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:27 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:27 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:27 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:27 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:27 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:27 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:27 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:27 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:27 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:28 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:28 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:28 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:28 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:28 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:28 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:28 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-26 19:28 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-26 19:28 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-26 19:28 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-26 19:28 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:28 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:28 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:28 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:28 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:28 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:28 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:28 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:28 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:28 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:28 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:28 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:28 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:28 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:28 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:28 [DEBUG]                Controller:    37 - Controller starts
+2018-01-26 19:28 [TRACE]                Controller:    41 - Request parameter: command --> car_list_clear
+2018-01-26 19:28 [TRACE]                Controller:    45 - Obtained command --> CarListClearCommand
+2018-01-26 19:28 [TRACE]                Controller:    55 - Forward address --> /Controller?command=car_list
+2018-01-26 19:28 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /Controller?command=car_list
+2018-01-26 19:28 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:28 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:28 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:28 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:28 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:28 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:28 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:28 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:28 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:28 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:28 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:28 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:28 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:28 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:28 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:29 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:29 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:29 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:29 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:29 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:29 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:29 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:29 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:29 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:29 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:29 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:29 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:29 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:29 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:29 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:29 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:29 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:29 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:29 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:29 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:29 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:29 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:29 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:29 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:29 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:29 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:29 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:29 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:29 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:29 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:29 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:29 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:29 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:29 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:29 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:32 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:32 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:32 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:32 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:32 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:32 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:32 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:32 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:32 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:32 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:32 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:32 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:32 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:32 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:32 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:32 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:32 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:32 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:32 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:32 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:32 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:32 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:32 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:32 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:32 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:40 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:40 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:40 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:40 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:40 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:40 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:40 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:40 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:40 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:40 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:40 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:40 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:40 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:40 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:40 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:40 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:40 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:40 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:40 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:40 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:40 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:40 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:40 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:40 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:40 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:40 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:40 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:40 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:40 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:40 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:43 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:43 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:43 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:43 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:43 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:43 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:43 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:43 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:43 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:43 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:44 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:44 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:44 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:44 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:44 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:44 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:44 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:44 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:44 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:44 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:44 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:44 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:44 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:44 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:44 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:44 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:44 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:44 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:44 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:44 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:44 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:44 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:44 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:44 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:44 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:46 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:46 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:46 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:46 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:46 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:46 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:46 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:46 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:46 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:46 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:46 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:46 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:46 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:46 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:46 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:51 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:51 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:51 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:51 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:51 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:51 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:51 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:51 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:51 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:51 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:51 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:51 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:51 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:51 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:51 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:51 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:51 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:51 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:51 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:51 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:51 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:51 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:51 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:51 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:51 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:51 [DEBUG]                Controller:    37 - Controller starts
+2018-01-26 19:51 [TRACE]                Controller:    41 - Request parameter: command --> car_list_clear
+2018-01-26 19:51 [TRACE]                Controller:    45 - Obtained command --> CarListClearCommand
+2018-01-26 19:51 [TRACE]                Controller:    55 - Forward address --> /Controller?command=car_list
+2018-01-26 19:51 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /Controller?command=car_list
+2018-01-26 19:51 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:51 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:51 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:51 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:51 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:52 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:52 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:52 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:52 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:52 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:52 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:52 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:52 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:52 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:52 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:53 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:53 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:53 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:53 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:53 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:53 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:53 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:53 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:53 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:53 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:54 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:54 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:54 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:54 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:54 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:54 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:54 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:54 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:54 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:54 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:55 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:55 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:55 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:55 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:55 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:55 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:55 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:55 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:55 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:55 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:56 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:56 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:56 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:56 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:56 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:56 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:56 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:56 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:56 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:56 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:56 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:56 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:56 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:56 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:56 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:56 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:56 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:56 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:56 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:56 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:56 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:56 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:56 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:56 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:56 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:56 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:56 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:56 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:56 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:56 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:56 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:56 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:56 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:56 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:56 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:56 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:56 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:56 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:56 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:56 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:56 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:56 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:56 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:56 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:56 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:57 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:57 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:57 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:57 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:57 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:57 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:57 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:57 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:57 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:57 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:59 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:59 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:59 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:59 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:59 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:59 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:59 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:59 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:59 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:59 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:59 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:59 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:59 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:59 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:59 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 19:59 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 19:59 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 19:59 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 19:59 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 19:59 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:00 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:00 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:00 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:00 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:00 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:00 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:00 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:00 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:00 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:00 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:01 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:01 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:01 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:01 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:01 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:01 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:01 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:01 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:01 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:01 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:01 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:01 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:01 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:01 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:01 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:01 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:01 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:01 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:01 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:01 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:01 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:01 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:01 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:01 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:01 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:01 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:01 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:01 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:01 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:01 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:01 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:01 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:01 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:01 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:01 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:01 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:01 [TRACE]                Controller:    68 - Request parameter: command --> choose_car
+2018-01-26 20:01 [TRACE]                Controller:    72 - Obtained command --> ChooseCarCommand
+2018-01-26 20:01 [TRACE]                Controller:    83 - Forward address --> view/choose_car.jsp
+2018-01-26 20:01 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> view/choose_car.jsp
+2018-01-26 20:01 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:01 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:01 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:01 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:01 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:01 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:01 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:01 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:01 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:01 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:02 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:02 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:02 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:02 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:02 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:02 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:02 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:02 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:02 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:02 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:02 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:02 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:02 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:02 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:02 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:02 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:02 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:02 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:02 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:02 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:05 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:05 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:05 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:05 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:05 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:05 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:05 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:05 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:05 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:05 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:05 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:05 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:05 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:05 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:05 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:06 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:06 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:06 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:06 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:06 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:06 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:06 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:06 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:06 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:06 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:06 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:06 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:06 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:06 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:06 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:06 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:06 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:06 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:06 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:06 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:08 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:08 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:08 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:08 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:08 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:08 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:08 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:08 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:08 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:08 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:09 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:09 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:09 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:09 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:09 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:09 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:09 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:09 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:09 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:09 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:09 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:09 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:09 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:09 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:09 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:09 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:09 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:09 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:09 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:09 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:09 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:09 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:09 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:09 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:09 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:10 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:10 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:10 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:10 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:10 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:10 [DEBUG]                Controller:    37 - Controller starts
+2018-01-26 20:10 [TRACE]                Controller:    41 - Request parameter: command --> car_list_clear
+2018-01-26 20:10 [TRACE]                Controller:    45 - Obtained command --> CarListClearCommand
+2018-01-26 20:10 [TRACE]                Controller:    55 - Forward address --> /Controller?command=car_list
+2018-01-26 20:10 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /Controller?command=car_list
+2018-01-26 20:10 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:10 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:10 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:10 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:10 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:10 [DEBUG]                Controller:    37 - Controller starts
+2018-01-26 20:10 [TRACE]                Controller:    41 - Request parameter: command --> car_list_clear
+2018-01-26 20:10 [TRACE]                Controller:    45 - Obtained command --> CarListClearCommand
+2018-01-26 20:10 [TRACE]                Controller:    55 - Forward address --> /Controller?command=car_list
+2018-01-26 20:10 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /Controller?command=car_list
+2018-01-26 20:10 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:10 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:10 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:10 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:10 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:10 [DEBUG]                Controller:    37 - Controller starts
+2018-01-26 20:10 [TRACE]                Controller:    41 - Request parameter: command --> car_list_clear
+2018-01-26 20:10 [TRACE]                Controller:    45 - Obtained command --> CarListClearCommand
+2018-01-26 20:10 [TRACE]                Controller:    55 - Forward address --> /Controller?command=car_list
+2018-01-26 20:10 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /Controller?command=car_list
+2018-01-26 20:10 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:10 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:10 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:10 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:10 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:11 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:11 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:11 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:11 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:11 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:11 [DEBUG]                Controller:    37 - Controller starts
+2018-01-26 20:11 [TRACE]                Controller:    41 - Request parameter: command --> car_list_clear
+2018-01-26 20:11 [TRACE]                Controller:    45 - Obtained command --> CarListClearCommand
+2018-01-26 20:11 [TRACE]                Controller:    55 - Forward address --> /Controller?command=car_list
+2018-01-26 20:11 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /Controller?command=car_list
+2018-01-26 20:11 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:11 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:11 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:11 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:11 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:11 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:11 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:11 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:11 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:11 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:11 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:11 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:11 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:11 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:11 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:12 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:12 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:12 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:12 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:12 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:13 [DEBUG]                Controller:    37 - Controller starts
+2018-01-26 20:13 [TRACE]                Controller:    41 - Request parameter: command --> car_list_clear
+2018-01-26 20:13 [TRACE]                Controller:    45 - Obtained command --> CarListClearCommand
+2018-01-26 20:13 [TRACE]                Controller:    55 - Forward address --> /Controller?command=car_list
+2018-01-26 20:13 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /Controller?command=car_list
+2018-01-26 20:13 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:13 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:13 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:13 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:13 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:13 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:13 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:13 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:13 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:13 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:13 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:13 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:13 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:13 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:13 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:13 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:13 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:13 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:13 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:13 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:13 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:13 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:13 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:13 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:13 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:13 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:13 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:13 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:13 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:13 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:13 [DEBUG]                Controller:    37 - Controller starts
+2018-01-26 20:13 [TRACE]                Controller:    41 - Request parameter: command --> car_list_clear
+2018-01-26 20:13 [TRACE]                Controller:    45 - Obtained command --> CarListClearCommand
+2018-01-26 20:13 [TRACE]                Controller:    55 - Forward address --> /Controller?command=car_list
+2018-01-26 20:13 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /Controller?command=car_list
+2018-01-26 20:13 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:13 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:13 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:13 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:13 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:13 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:13 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:13 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:13 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:13 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:13 [DEBUG]                Controller:    37 - Controller starts
+2018-01-26 20:13 [TRACE]                Controller:    41 - Request parameter: command --> car_list_clear
+2018-01-26 20:13 [TRACE]                Controller:    45 - Obtained command --> CarListClearCommand
+2018-01-26 20:13 [TRACE]                Controller:    55 - Forward address --> /Controller?command=car_list
+2018-01-26 20:13 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /Controller?command=car_list
+2018-01-26 20:13 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:13 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:13 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:13 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:13 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:14 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:14 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:14 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:14 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:14 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:14 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:14 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:14 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:14 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:14 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:14 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:14 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:14 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:14 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:14 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:14 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:14 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:14 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:14 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:14 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:14 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:14 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:14 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:14 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:14 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:14 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:14 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:14 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:14 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:14 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    37 - Controller starts
+2018-01-26 20:14 [TRACE]                Controller:    41 - Request parameter: command --> car_list_clear
+2018-01-26 20:14 [TRACE]                Controller:    45 - Obtained command --> CarListClearCommand
+2018-01-26 20:14 [TRACE]                Controller:    55 - Forward address --> /Controller?command=car_list
+2018-01-26 20:14 [DEBUG]                Controller:    57 - Controller finished, now go to forward address --> /Controller?command=car_list
+2018-01-26 20:14 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:14 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:14 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:14 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:14 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:14 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:14 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 20:14 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 20:14 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 20:14 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 20:14 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 23:50 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 23:50 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 23:50 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 23:50 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 23:50 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 23:50 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 23:50 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 23:50 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 23:50 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 23:50 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 23:50 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 23:50 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 23:50 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 23:50 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 23:50 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
+2018-01-26 23:50 [DEBUG]                Controller:    64 - Controller starts
+2018-01-26 23:50 [TRACE]                Controller:    68 - Request parameter: command --> car_list
+2018-01-26 23:50 [TRACE]                Controller:    72 - Obtained command --> CarListCommand
+2018-01-26 23:50 [TRACE]                Controller:    83 - Forward address --> /view/car_list.jsp
+2018-01-26 23:50 [DEBUG]                Controller:    85 - Controller finished, now go to redirect address --> /view/car_list.jsp
