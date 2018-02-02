@@ -36,7 +36,7 @@ public class FormingOrder extends Command {
 		final User user = (User) request.getSession().getAttribute("user");
 		final int userId = user.getId();
 		if (manager.checkUserForNotPayedAccounts(userId)) {
-			throw new AppException("Простите , но у вас остались неоплаченные счета!!!");
+			throw new AppException("РџСЂРѕСЃС‚РёС‚Рµ , РЅРѕ Сѓ РІР°СЃ РѕСЃС‚Р°Р»РёСЃСЊ РЅРµРѕРїР»Р°С‡РµРЅРЅС‹Рµ СЃС‡РµС‚Р°!!!");
 		}
 
 		String name = request.getParameter("name");

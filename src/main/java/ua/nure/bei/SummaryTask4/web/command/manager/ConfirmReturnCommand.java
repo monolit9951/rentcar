@@ -38,7 +38,7 @@ public class ConfirmReturnCommand extends Command {
 			if (!Util.isMoney(money))
 				throw new AppException("wrong param");
 			Account acc = new Account(o.getUserId(), Integer.parseInt(money), Status.WAITTOPAY.ordinal(),
-					"Счет за ремонт", new Date(System.currentTimeMillis()));
+					"РЎС‡РµС‚ Р·Р° СЂРµРјРѕРЅС‚", new Date(System.currentTimeMillis()));
 			manager.addAccount(acc);
 		}
 		return forward;

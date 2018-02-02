@@ -38,10 +38,10 @@ public class PasteAccountCommand extends Command {
 			throw new AppException(Message.WRONG_FORMAT_OF_DATE.info());
 		a.setStatusId(Status.PAYED.ordinal());
 		o.setStatusId(Status.PAYED.ordinal());
-		a.setMessage("Ïîêóïêà");
+		a.setMessage("ÐŸÐ¾ÐºÑƒÐ¿ÐºÐ°");
 		if (!(manager.addOrder(o) && manager.addOrderIdCarId(o.getId(), c.getId()) && manager.addAccount(a)))
 			throw new AppException("something is going wrong. Tell us about the problem");
-		request.setAttribute("resMessage", "Ãîòîâî. Ïðèÿòíîé åçäû!");
+		request.setAttribute("resMessage", "Ð“Ð¾Ñ‚Ð¾Ð²Ð¾. ÐŸÑ€Ð¸ÑÑ‚Ð½Ð¾Ð¹ ÐµÐ·Ð´Ñ‹!");
 		LOG.trace("account-->" + a);
 		LOG.trace("order-->" + o); //
 		session.removeAttribute("order");

@@ -35,7 +35,7 @@ public class LoginCommand extends Command {
 		User user = manager.findUserByLogin(login);
 
 		if (user == null || !password.equals(user.getPassword())) {
-			throw new AppException("Не могу найти пользователя с таким логином/паролем");
+			throw new AppException("РќРµ РјРѕРіСѓ РЅР°Р№С‚Рё РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ СЃ С‚Р°РєРёРј Р»РѕРіРёРЅРѕРј/РїР°СЂРѕР»РµРј");
 		}
 		Role userRole = user.getRole();
 		String forward = Path.COMMAND_MAIN;
